@@ -1,0 +1,75 @@
+.j-menu-main {
+	height: 110px;
+	opacity: 0.95;
+	.j-menu-logo {
+		width: 200px;
+		background-image: url(../img/logo-xs_jne.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: 25px;
+ 	   	margin-top: 10px;
+	}
+	&.headroom--top .j-menu-logo {
+		@media screen and (min-width: 768px) {
+			background-image: url(../img/logo-md_jne.svg);
+			height: 175px;
+			width: 300px;
+		}
+		@media screen and (min-width: 1201px) {
+			background-image: url(../img/logo_jne.svg);
+			height: 400px;
+		}
+	}
+	&.headroom--not-top {
+		height: 60px;
+		.j-menu-logo {
+
+		}
+	}
+}
+
+.image-formation {
+	top: 0;
+}
+
+.text1 {
+	margin-top: 60px;
+}
+
+.photo-header {
+	margin-top: -40px;
+}
+
+.photo-contenu {
+	width: calc(100% - 50px);
+}
+
+.accueil-titre-h2 {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 15px;
+	font-family: 'Open Sans';
+	font-size: 3em;
+}
+
+.block-accueil {
+	margin-top: 60px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu';
+}
+p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 1.25em;
+}
+
+.menu-footer {
+	display: block;
+}
+.bh-tweet {
+	font-size: 22px;
+	line-height: 1.2;
+    text-align: center;
+}
