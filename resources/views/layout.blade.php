@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
@@ -61,12 +61,12 @@
 
 
        <div class="menu-endpage">
-         <a class="item" href="/index.html">Accueil</a>
-         <a class="item" href="/promotion.html">Promotions</a>
-         <a class="item" href="/partenaires.html">Partenaires</a>
-         <a class="item" href="/temoignage.html">Témoignages</a>
-         <a class="item" href="/team.html">Équipe</a>
-         <a class="item" href="/contact.html">Contact</a>
+         <a class="item" href="accueil.html">Accueil</a>
+         <a class="item" href="promotion.html">Promotions</a>
+         <a class="item" href="partenaires.html">Partenaires</a>
+         <a class="item" href="temoignage.html">Témoignages</a>
+         <a class="item" href="team.html">Équipe</a>
+         <a class="item" href="contact.html">Contact</a>
          <a class="item" href="#">Mentions légales</a>
       </div>
 
