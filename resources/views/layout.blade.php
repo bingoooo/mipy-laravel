@@ -128,7 +128,7 @@
   <div class="bh-copy">&copy; 2016 Simplon.co Midi-Pyrénées </div>
 
 <!-- chargement des scripts -->
-<script src="/js/app.js"></script>
+<script src="./js/app.js"></script>
 
 <script type="text/javascript">
   WebFontConfig = {
