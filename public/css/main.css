@@ -223,6 +223,79 @@ body {
 .text1 {
   margin-top: 60px; }
 
+.ui.inverted.menu {
+  background: transparent;
+  height: 80px; }
+
+.menu-item {
+  font-size: 20px; }
+
+.ui.vertical.menu {
+  background-color: #1b1c1d;
+  height: 100%; }
+
+.ui.stackable.four.column.grid {
+  background-color: #1b1c1d; }
+
+.menu-footer {
+  display: block; }
+
+.bh-tweet {
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9); }
+
+.ui.medium.image {
+  width: 300px;
+  height: auto;
+  top: 25px;
+  z-index: 1; }
+
+.ui.tiny.image {
+  width: 80px;
+  height: auto;
+  top: -75px;
+  left: 356px;
+  z-index: 1; }
+
+.p-footer {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center; }
+
+a.p-footer {
+  text-align: center;
+  margin: 0 auto; }
+
+.ui.grid.main {
+  margin-top: 70px; }
+
+.mobile.row {
+  padding-top: 0px !important;
+  margin-top: 0px !important; }
+
+.mobile.row .ui.inverted.menu {
+  border-radius: 0px !important; }
+
+.padding-reset {
+  padding: 0px !important; }
+
+.ui.message {
+  padding: 40px !important; }
+
+@media (max-width: 767px) {
+  .ui.grid.main {
+    margin-top: 70px; }
+  .ui.grid {
+    margin: 0 !important; }
+  .ui.vertical.menu.navbar {
+    margin-top: 0px !important; } }
+
+.ui.vertical.menu {
+  margin-top: -15px !important;
+  width: 100%;
+  display: none; }
+
 .ph-titre {
   text-align: center; }
 
@@ -335,6 +408,12 @@ body {
 .by-image {
   width: 100%; }
 
+.titre-formation {
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 35px;
+  margin-top: 80px; }
+
 .fg-hero {
   background: url("../img/groupe.jpg") no-repeat center;
   background-size: cover;
@@ -367,20 +446,21 @@ html {
   opacity: 0.95; }
   .j-menu-main .j-menu-logo {
     width: 200px;
-    background-image: url(../img/logo-xs_jne.svg);
+    background-image: url(/img/logo-md.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 25px;
     margin-top: 10px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 965px) {
     .j-menu-main.headroom--top .j-menu-logo {
-      background-image: url(../img/logo-md_jne.svg);
+      background-image: url(/img/logo-md.svg);
       height: 175px;
       width: 300px; } }
   @media screen and (min-width: 1201px) {
     .j-menu-main.headroom--top .j-menu-logo {
-      background-image: url(../img/logo_jne.svg);
-      height: 400px; } }
+      background-image: url(/img/logo.svg);
+      height: 400px;
+      position: fixed; } }
   .j-menu-main.headroom--not-top {
     height: 60px; }
 
@@ -392,9 +472,6 @@ html {
 
 .photo-header {
   margin-top: -40px; }
-
-.photo-contenu {
-  width: calc(100% - 50px); }
 
 .accueil-titre-h2 {
   margin: 0 auto;
@@ -413,15 +490,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: 'Open Sans';
   font-weight: 400;
-  font-size: 1.25em; }
-
-.menu-footer {
-  display: block; }
-
-.bh-tweet {
-  font-size: 22px;
-  line-height: 1.2;
-  text-align: center; }
+  font-size: 1.25em;
+  text-align: justify; }
 
 .mh-bouton.mh-bouton.mh-bouton {
   margin-top: 10px;

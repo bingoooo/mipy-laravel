@@ -14,77 +14,122 @@
 </head>
 <body>
 
-<div id="main_menu" class="animated ui top fixed inverted pointing menu j-menu-main headroom--not-top">
+  <div id="main_menu" class="animated ui top fixed inverted pointing menu j-menu-main headroom --not-top">
 
-  <a class="j-menu-logo" href="/">&nbsp</a>
+    <a class="j-menu-logo" href="/">&nbsp</a>
 
-  <div class= "right menu">
-    <a class="item" href="/formation.html"><i class="edit icon"></i> Formation</a>
-    <a class="item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
-    <a class="item" href="/emploi.html"><i class="users icon"></i>Emploi</a>
-    <a class="item" href="/contact.html"><i class="icon mail"></i> Contact</a>
+    <div class="ui grid">
+
+      <div class="computer tablet only row">
+        <div class="ui inverted fixed menu navbar page grid">
+          <div class="right menu">     
+            <a class="item menu-item" href="/formation.html"><i class="edit icon"></i> Formation</a>
+            <a class="item menu-item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
+            <a class="item menu-item" href="/emploi.html"><i class="users icon"></i>Emploi</a>
+            <a class="item menu-item" href="/contact.html"><i class="icon mail"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile only row">
+        <div class="ui fixed inverted navbar menu">
+          <a class="j-menu-logo" href="/">&nbsp</a>
+          <div class="right menu open">
+            <a href="" class="menu item">
+              <i class="content icon"></i>             
+            </a>
+          </div>
+        </div>
+
+        <div class="ui vertical navbar menu">
+          <a class="item" href="/formation.html"><i class="edit icon"></i> Formation</a>
+          <a class="item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
+          <a class="item" href="/emploi.html"><i class="users icon"></i>Emploi</a>
+          <a class="item" href="/contact.html"><i class="icon mail"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
-</div>
 
   @yield('content')
 
+  <div class="ui stackable four column grid">
 
-<div class="ui bottom fixed attached centred inverted segment">
-  <div class="ui grid">
-    <div class="ui three wide column">
-      <div class= "ui inverted secondary pointing fluid vertical menu menu-footer">
-        <a class="item" href="/index.html">Accueil</a>
-        <a class="item" href="/promotion.html">Promotions</a>
-        <a class="item" href="/partenaires.html">Partenaires</a>
-        <a class="item" href="/temoignage.html">Témoignages</a>
-        <a class="item" href="/team.html">Équipe</a>
-        <a class="item" href="/contact.html">Contact</a>
-        <a class="item" href="#">Mentions légales</a>
+    <div class="column">
+
+       <div class= "ui inverted secondary pointing fluid vertical menu menu-footer">
+         <a class="item" href="/index.html">Accueil</a>
+         <a class="item" href="/promotion.html">Promotions</a>
+         <a class="item" href="/partenaires.html">Partenaires</a>
+         <a class="item" href="/temoignage.html">Témoignages</a>
+         <a class="item" href="/team.html">Équipe</a>
+         <a class="item" href="/contact.html">Contact</a>
+         <a class="item" href="#">Mentions légales</a>
       </div>
+
     </div>
-    <div class="ui four wide column">
-      <!--News Letter-->
-      <p>Suivez notre actualité</p>
+
+    <div class="column">
+      <p class="p-footer">Suivez notre actualité</p>
       <div class="ui form">
         <label class="two fields">
           <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><i class="icon send"></i></button>
         </label>
       </div>
+      <img class="medium ui image" src="/img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées">
+      <img class="tiny ui image" src="/img/logo-er2c.png"alt="Ecole de la deuxième chance">
     </div>
-    <div class="ui five wide column">
-      <!--twitter-->
+
+    <div class="column">
       <div class="bh-tweet">
         <i class="twitter blue icon"></i>
         SNCF Développement ‏@SNCFDev  18 janv.<br>
         Ça sera aujourd hui dans 10 minutes chez @simplon!
       </div>
     </div>
-    <div class="ui four wide column">
-      <!--Contact-->
-        <p>Simplon & <abbr title="Ecole de la deuxième chance">ER2C</abbr></p>
-        <p><address>
-          
-              57 Allée de Bellefontaine<br>
-              BP 13589 <br>
-              31035 Toulouse<br>
-        </address>
-            N° : 0534637980
-        </p>
-        <a href="mailto:mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
-        <div class="ui inverted menu right">
-          <a href="#" class="item"><i class="github huge icon"></i></a>
-          <a href="#" class="item"><i class="facebook huge icon"></i></a>
-          <a href="#" class="item"><i class="twitter huge icon"></i></a>
+
+    <div class="column">
+      <p class="p-footer">Simplon & <abbr title="Ecole de la deuxième chance">ER2C</abbr></p>
+
+      <p class="p-footer adresse"><address class="p-footer">
+        57 Allée de Bellefontaine<br>
+        BP 13589 <br>
+        31035 Toulouse<br>
+        N° : 0534637980
+      </address>
+      </p>
+
+      <a  class="p-footer" href="mailto:mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
+
+      <div class="ui inverted menu">
+       <div class="ui grid">
+        <div class="four column center row">
+          <div class="column"> 
+            <a href="https://github.com/SimplonTlse" class="item"><i class="github large icon"></i></a>
+          </div>
+          <div class="column">
+            <a href="https://fr-fr.facebook.com/Simplon.co" class="item"><i class="facebook large icon"></i></a>
+          </div>
+          <div class="column">
+            <a href="https://twitter.com/simplonMIP" class="item"><i class="twitter large icon"></i></a>
+          </div>
+          <div class="column">
+            <a href="#" class="item"><i class="google plus large icon"></i></a>
+          </div>
         </div>
+      </div>
     </div>
-    <div 
+
   </div>
-</div>
-<div class="bh-copy">&copy; 2016 Simplon.co Midi-Pyrénées </div>
+
+  <div class="bh-copy">&copy; 2016 Simplon.co Midi-Pyrénées </div>
 
 <!-- chargement des scripts -->
-<script src="/js/app.js"></script>
 
+<script src="/js/app.js"></script>
 
 </body>
 </html>

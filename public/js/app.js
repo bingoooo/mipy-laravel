@@ -10919,6 +10919,15 @@ if ($('.fg-hero').length > 0) {
 	menu();
 }
 
+$(document).ready(function () {
+	$('.right.menu.open').on("click", function (e) {
+		e.preventDefault();
+		$('.ui.vertical.menu').toggle();
+	});
+
+	$('.ui.dropdown').dropdown();
+});
+
 },{"../components/headroom.js/dist/headroom.js":3,"../components/headroom.js/dist/jQuery.headroom.js":4,"./emploiShowModalbox.js":6,"./pageProfile.js":7,"./promotion.js":8,"jquery":1}],6:[function(require,module,exports){
 'use strict';
 
