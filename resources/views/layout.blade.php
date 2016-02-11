@@ -8,9 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -21,7 +20,7 @@
     <div class="ui grid">
 
       <div class="computer tablet only row">
-        <div class="ui inverted fixed menu navbar page grid">
+        <div class="ui inverted fixed menu navbar page grid"  id="main-menu" >
           <div class="right menu">     
             <a class="item menu-item" href="/formation.html"><i class="edit icon"></i> Formation</a>
             <a class="item menu-item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
@@ -60,7 +59,7 @@
 
     <div class="column">
 
-       <div class= "ui inverted secondary pointing fluid vertical menu menu-footer">
+       <div class="menu-endpage">
          <a class="item" href="/index.html">Accueil</a>
          <a class="item" href="/promotion.html">Promotions</a>
          <a class="item" href="/partenaires.html">Partenaires</a>
@@ -130,6 +129,19 @@
 <!-- chargement des scripts -->
 
 <script src="/js/app.js"></script>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans::latin'/*, 'Ubuntu::latin'*/ ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 
 </body>
 </html>
