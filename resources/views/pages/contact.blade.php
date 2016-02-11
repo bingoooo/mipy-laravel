@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="ui segment equal width center aligned padded">
-    <h2><b>Contacter Nous</b></h2>
+    <h2><b>Contactez Nous</b></h2>
 </div>
 <div class="ui stackable equal width center aligned padded grid cards">
     <div class="card mh-FondDesBlocks">

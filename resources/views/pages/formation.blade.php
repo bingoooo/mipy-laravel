@@ -12,7 +12,7 @@
 	</div>
 	<div class="ui two column doubling stackable grid justified container">
 		<div class="column">
-			<img class="ui four wide column by-image" src="/img/code-a.jpg" alt="promo">
+			<img class="ui four wide column by-image" src="./img/code-a.jpg" alt="promo">
 		</div>
 		<div class="column">
 			<h2>Quel programme en 6 mois de formation ?</h2>

@@ -23,10 +23,10 @@
       <div class="computer tablet only row">
         <div class="ui inverted fixed menu navbar page grid">
           <div class="right menu">     
-            <a class="item menu-item" href="/formation.html"><i class="edit icon"></i> Formation</a>
-            <a class="item menu-item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
-            <a class="item menu-item" href="/emploi.html"><i class="users icon"></i>Emploi</a>
-            <a class="item menu-item" href="/contact.html"><i class="icon mail"></i></a>
+            <a class="item menu-item" href="formation.html"><i class="edit icon"></i> Formation</a>
+            <a class="item menu-item" href="actualites.html"><i class="newspaper icon"></i> Actu & events</a>
+            <a class="item menu-item" href="emploi.html"><i class="users icon"></i>Emploi</a>
+            <a class="item menu-item" href="contact.html"><i class="icon mail"></i></a>
           </div>
         </div>
       </div>
@@ -42,10 +42,10 @@
         </div>
 
         <div class="ui vertical navbar menu">
-          <a class="item" href="/formation.html"><i class="edit icon"></i> Formation</a>
-          <a class="item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
-          <a class="item" href="/emploi.html"><i class="users icon"></i>Emploi</a>
-          <a class="item" href="/contact.html"><i class="icon mail"></i></a>
+          <a class="item" href="formation.html"><i class="edit icon"></i> Formation</a>
+          <a class="item" href="actualites.html"><i class="newspaper icon"></i> Actu & events</a>
+          <a class="item" href="emploi.html"><i class="users icon"></i>Emploi</a>
+          <a class="item" href="contact.html"><i class="icon mail"></i></a>
         </div>
 
       </div>
@@ -60,13 +60,13 @@
 
     <div class="column">
 
-       <div class= "ui inverted secondary pointing fluid vertical menu menu-footer">
-         <a class="item" href="/index.html">Accueil</a>
-         <a class="item" href="/promotion.html">Promotions</a>
-         <a class="item" href="/partenaires.html">Partenaires</a>
-         <a class="item" href="/temoignage.html">Témoignages</a>
-         <a class="item" href="/team.html">Équipe</a>
-         <a class="item" href="/contact.html">Contact</a>
+       <div class= "ui secondary pointing fluid vertical menu menu-footer">
+         <a class="item" href="accueil.html">Accueil</a>
+         <a class="item" href="promotion.html">Promotions</a>
+         <a class="item" href="partenaires.html">Partenaires</a>
+         <a class="item" href="temoignage.html">Témoignages</a>
+         <a class="item" href="team.html">Équipe</a>
+         <a class="item" href="contact.html">Contact</a>
          <a class="item" href="#">Mentions légales</a>
       </div>
 
@@ -79,8 +79,8 @@
           <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><i class="icon send"></i></button>
         </label>
       </div>
-      <img class="medium ui image" src="/img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées">
-      <img class="tiny ui image" src="/img/logo-er2c.png"alt="Ecole de la deuxième chance">
+      <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées">
+      <img class="tiny ui image" src="./img/logo-er2c.png"alt="Ecole de la deuxième chance">
     </div>
 
     <div class="column">

@@ -8,7 +8,7 @@
     <div class="ui vertically divided container stackable grid">
       <div class="ui two column row">
         <div class="sixteen wide tablet twelve wide computer column ">
-          Devenir partenaire de Simplon-MIP c’est faire le parti de l’#openinnovation et de l’apprentissage permanent. <br>
+          Devenir partenaire de Simplon-MIP c’est faire parti de l’#openinnovation et de l’apprentissage permanent. <br>
           Nous nous développons avec des entreprises qui nous font confiance et  souhaitent faire le pari de l’innovation partagée. <br>
           <br>
           Associez-vous à une marque puissante et référente dans les univers tech – innovation sociale – diversité/inclusion, et à sa “touch” spécifique pour mener des actions qui ont du sens, et profitez :

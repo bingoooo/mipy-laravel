@@ -5,7 +5,7 @@
 <div class="ui three column stackable centered grid container smp-padding">
 	<div class="row as-card">
 		<div class="column nopadding as-card">
-			<div style="background-image: url('../img/JFk.jpg')" class="as-card-image">
+			<div style="background-image: url('./img/JFk.jpg')" class="as-card-image">
 				&nbsp;
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 	<div class="four column centered row">
 		<div class="five wide column">
 			<div class="ui attached segment">
-				<img class="ui medium image" src="../img/amine.jpg">
+				<img class="ui medium image" src="./img/amine.jpg">
 			</div>
 			<div class="ui attached segment">
 				<h3 class="ui dividing header">Amine El Ghayate</h3>

@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="column">
-    <img class="photo-contenu" src="/img/code-b.jpg" alt="">
+    <img class="photo-contenu" src="./img/code-b.jpg" alt="">
   </div>
 </div>
 
@@ -35,15 +35,15 @@
 <div class="ui five column doubling stackable grid container">
 
   <div class="column">
-    <img class="ui image" src="../img/logo-crv.png" alt="">
+    <img class="ui image" src="./img/logo-crv.png" alt="">
   </div>
   
   <div class="column">
-    <img class="ui image" src="../img/logo-etincelle-coworking.png" alt="">
+    <img class="ui image" src="./img/logo-etincelle-coworking.png" alt="">
   </div>
 
   <div class="column">
-    <img class="ui image" src="../img/logo-lamelee.png" alt="">
+    <img class="ui image" src="./img/logo-lamelee.png" alt="">
   </div>
 
 
