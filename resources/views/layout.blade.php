@@ -8,9 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -21,7 +20,7 @@
     <div class="ui grid">
 
       <div class="computer tablet only row">
-        <div class="ui inverted fixed menu navbar page grid">
+        <div class="ui inverted fixed menu navbar page grid"  id="main-menu" >
           <div class="right menu">     
             <a class="item menu-item" href="formation.html"><i class="edit icon"></i> Formation</a>
             <a class="item menu-item" href="actualites.html"><i class="newspaper icon"></i> Actu & events</a>
@@ -60,13 +59,14 @@
 
     <div class="column">
 
-       <div class= "ui secondary pointing fluid vertical menu menu-footer">
-         <a class="item" href="accueil.html">Accueil</a>
-         <a class="item" href="promotion.html">Promotions</a>
-         <a class="item" href="partenaires.html">Partenaires</a>
-         <a class="item" href="temoignage.html">Témoignages</a>
-         <a class="item" href="team.html">Équipe</a>
-         <a class="item" href="contact.html">Contact</a>
+
+       <div class="menu-endpage">
+         <a class="item" href="/index.html">Accueil</a>
+         <a class="item" href="/promotion.html">Promotions</a>
+         <a class="item" href="/partenaires.html">Partenaires</a>
+         <a class="item" href="/temoignage.html">Témoignages</a>
+         <a class="item" href="/team.html">Équipe</a>
+         <a class="item" href="/contact.html">Contact</a>
          <a class="item" href="#">Mentions légales</a>
       </div>
 
@@ -129,6 +129,7 @@
 
 <!-- chargement des scripts -->
 <script src="/js/app.js"></script>
+<<<<<<< HEAD
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -139,6 +140,21 @@
   ga('send', 'pageview');
 
 </script>
+=======
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans::latin'/*, 'Ubuntu::latin'*/ ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+>>>>>>> d8dea4ccf65b0f5648fb09ec5b4533b15a61eff6
 
 </body>
 </html>

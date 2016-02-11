@@ -30,7 +30,7 @@ if ($('.fg-hero').length > 0){
 $(document).ready(function(){
   $('.right.menu.open').on("click",function(e){
     e.preventDefault();
-    $('.ui.vertical.menu').toggle();
+    $('#main-menu').toggle();
   });
     
   $('.ui.dropdown').dropdown();
