@@ -56,3 +56,97 @@ body {
 .text1 {
   margin-top: 60px;
 }
+
+.ui.inverted.menu {
+  background: transparent;
+  height: 80px;
+}
+
+.menu-item {
+  font-size: 20px;
+}
+
+.ui.vertical.menu {
+  background-color: #1b1c1d;
+  height: 100%;
+}
+
+.ui.stackable.four.column.grid {
+  background-color: #1b1c1d;
+}
+
+.menu-footer {
+  display: block;
+}
+.bh-tweet {
+  font-size: 22px;
+  line-height: 1.2;
+    text-align: center;
+    color: rgba(255,255,255,.9);
+}
+
+.ui.medium.image {
+  width: 300px;
+  height: auto;
+  top: 25px;
+  z-index: 1;
+}
+
+.ui.tiny.image {
+  width: 80px;
+  height: auto;
+  top: -75px;
+  left: 356px;
+  z-index: 1;
+}
+
+.adresse {
+}
+
+.p-footer {
+  color: rgba(255,255,255,.9);  
+  text-align: center;
+}
+
+a.p-footer {  
+  text-align: center;
+  margin: 0 auto ;
+}
+
+.ui.grid.main{
+  margin-top: 70px;
+}
+
+.mobile.row{
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+.mobile.row .ui.inverted.menu{
+  border-radius: 0px !important;
+}
+
+.padding-reset{
+  padding: 0px !important;
+}
+
+.ui.message{
+  padding: 40px !important;
+}
+
+@media (max-width: 767px) {
+    .ui.grid.main{
+      margin-top: 70px;
+  }
+
+        .ui.grid { margin: 0 !important; }
+  .ui.vertical.menu.navbar{
+    margin-top: 0px !important;
+  }
+}
+
+.ui.vertical.menu{
+  margin-top: -15px !important;
+  width: 100%;
+  display: none;
+}

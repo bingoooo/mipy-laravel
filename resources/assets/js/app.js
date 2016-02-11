@@ -26,3 +26,12 @@ var menu = (function(){
 if ($('.fg-hero').length > 0){
 	menu();
 }
+
+$(document).ready(function(){
+  $('.right.menu.open').on("click",function(e){
+    e.preventDefault();
+    $('.ui.vertical.menu').toggle();
+  });
+    
+  $('.ui.dropdown').dropdown();
+});
