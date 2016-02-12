@@ -10,17 +10,33 @@
 		<p>La sélection se fait sur la motivation et l’envie de travailler en équipe ! Un écosystème riche comprenant une communauté de mentors, de professionnels et bénéficie du soutient de nombreux partenaires.</p>
 		<br>
 	</div>
-	<div class="ui two column doubling stackable grid justified container">
-		<div class="column">
-			<img class="ui four wide column by-image" src="/img/code-a.jpg" alt="promo">
-		</div>
-		<div class="column">
-			<h2>Quel programme en 6 mois de formation ?</h2>
-			<p>Simplon propose un programme complet. En passant par le développement « front-end » (ce que l’on voit à l’écran), le développement « back-end » (les coulisses, les fonctionnalités), l’administration systèmes sous Linux, la programmation d’objets connectés, la gestion de projet et la conception d’interfaces. Depuis Novembre 2015, il est possible de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</p>
-			<p>L'objectif étant de permettre aux simploniens de devenir rapidemment de nouveaux développeurs et d'être autonome, de nombreuses compétences et méthodes de travail leur sont transmises. Des compétences techniques telles que HTML, CSS et Javascript pour le front-end, PHP et NodeJS pour le back-end. Mais également des outils de gestion de projet (Git, Github, Slack...) et des méthodes de travail (méthodologies agiles, le pair programming...).</p>
-			<p>Plusieurs thèmes en lien avec le développement sont abordés, par exemple la sécurité, l'environnement, l'intelligence artificielle, la consommation collaborative, l'entrepreneuriat, la communication, le marketing... Autant de sujets qui pourront donner lieu à des interventions de professionnels de la région!</p>
+	
+		<div class="ui one column doubling stackable grid justified container">
+    			<img class="img-formation" src="/img/Code-c.jpg" alt="promo">
+    	</div>
+
+
+    <div class="ui one column doubling stackable grid justified container">
+		<div class="ui inverted segment">
+  			<h2>Quel programme en 6 mois de formation ?</h2>
+  			<p>Simplon propose un programme complet. En passant par le développement « front-end » (ce que l’on voit à l’écran), le développement « back-end » (les coulisses, les fonctionnalités), l’administration systèmes sous Linux, la programmation d’objets connectés, la gestion de projet et la conception d’interfaces. Depuis Novembre 2015, il est possible de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</p>
+  		<div class="ui inverted divider"></div>
+  			<p>L'objectif étant de permettre aux simploniens de devenir rapidemment de nouveaux développeurs et d'être autonome, de nombreuses compétences et méthodes de travail leur sont transmises. Des compétences techniques telles que HTML, CSS et Javascript pour le front-end, PHP et NodeJS pour le back-end. Mais également des outils de gestion de projet (Git, Github, Slack...) et des méthodes de travail (méthodologies agiles, le pair programming...).</p>
 		</div>
 	</div>
+
+	<div class="ui one column doubling stackable grid justified container">
+		<div class="ui large buttons formdev">
+  			<a class="formdev" href="/formdev.html"><button class="ui button formdev">Formation Développemnt Web</button></a>
+		</div>
+	</div>
+
+	<div class="ui one column doubling stackable grid justified container">
+		<div class="ui large buttons java">
+  			<a class="formjava" href="/formjava.html"><button class="ui button formjava">Formation Java</button></a>
+		</div>
+	</div>
+
 	<!--
 	<div class="ui two column doubling stackable justified divided grid container">
 	<div class="row">

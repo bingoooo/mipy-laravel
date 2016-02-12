@@ -8,20 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-  <div id="main_menu" class="animated ui top fixed inverted pointing menu j-menu-main headroom --not-top">
+  <div id="main_menu" class="animated ui top fixed inverted pointing menu j-menu-main headroom--not-top">
 
     <a class="j-menu-logo" href="/">&nbsp</a>
 
     <div class="ui grid">
 
       <div class="computer tablet only row">
-        <div class="ui inverted fixed menu navbar page grid">
+        <div class="ui inverted fixed menu navbar page grid"  id="main-menu" >
           <div class="right menu">     
             <a class="item menu-item" href="/formation.html"><i class="edit icon"></i> Formation</a>
             <a class="item menu-item" href="/actualites.html"><i class="newspaper icon"></i> Actu & events</a>
@@ -60,14 +59,14 @@
 
     <div class="column">
 
-       <div class= "ui inverted secondary pointing fluid vertical menu menu-footer">
-         <a class="item" href="/index.html">Accueil</a>
-         <a class="item" href="/promotion.html">Promotions</a>
-         <a class="item" href="/partenaires.html">Partenaires</a>
-         <a class="item" href="/temoignage.html">Témoignages</a>
-         <a class="item" href="/team.html">Équipe</a>
-         <a class="item" href="/contact.html">Contact</a>
-         <a class="item" href="#">Mentions légales</a>
+       <div class="vertical-menu-endpage">
+         <a class="item menu-endpage" href="/index.html">Accueil</a>
+         <a class="item menu-endpage" href="/promotion.html">Promotions</a>
+         <a class="item menu-endpage" href="/partenaires.html">Partenaires</a>
+         <a class="item menu-endpage" href="/temoignage.html">Témoignages</a>
+         <a class="item menu-endpage" href="/team.html">Équipe</a>
+         <a class="item menu-endpage" href="/contact.html">Contact</a>
+         <a class="item menu-endpage" href="#">Mentions légales</a>
       </div>
 
     </div>
@@ -92,15 +91,19 @@
     </div>
 
     <div class="column">
-      <p class="p-footer">Simplon & <abbr title="Ecole de la deuxième chance">ER2C</abbr></p>
+      <p class="p-footer">Simplon Midi-Pyrénées<br>
+      <br>
+       & <br>
+      <br>
+       <abbr title="Ecole de la deuxième chance">ER2C</abbr></p>
 
-      <p class="p-footer adresse"><address class="p-footer">
+     <!--  <p class="p-footer adresse"><address class="p-footer">
         57 Allée de Bellefontaine<br>
         BP 13589 <br>
         31035 Toulouse<br>
         N° : 0534637980
       </address>
-      </p>
+      </p> -->
 
       <a  class="p-footer" href="mailto:mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
 
@@ -125,20 +128,24 @@
 
   </div>
 
-  <div class="bh-copy">&copy; 2016 Simplon.co Midi-Pyrénées </div>
+  <div class="bh-copy">&copy; 2016 Simplon.co</div>
 
 <!-- chargement des scripts -->
 <script src="/js/app.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-73444909-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans::latin'/*, 'Ubuntu::latin'*/ ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 
 </body>
 </html>
