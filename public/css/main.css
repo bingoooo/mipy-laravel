@@ -128,8 +128,13 @@
 
 .backgroundPartenaire {
   width: 100%;
-  height: 200px;
   background-size: contain !important; }
+
+.ph-centre {
+  text-align: center; }
+
+.ph-droit {
+  text-align: right; }
 
 .rl-close-icon:hover {
   cursor: pointer; }
