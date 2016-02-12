@@ -18,14 +18,14 @@
 			<!--chargement des photos avec boucle moustache -->
 
 			@{{# users}} 
-			<a href="#">
+			<a href="profile@{{id}}">
 				<div class="card sm-card">
 					<div class="sm-card-images" >
 						<img class="sm-card-image-top" src="@{{portrait}}">
 						<img class="sm-card-image-hover" src="@{{overlay}}">
 					</div>
 					<div class="sm-card-extra">
-						<h5 class="header seb-identite">@{{id}} 
+						<h5 class="header seb-identite">@{{name}} 
 							<span class="seb-presentation">
 								<br>D&eacuteveloppeur junior 
 								<br>Dernier projet
