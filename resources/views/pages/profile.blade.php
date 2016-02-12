@@ -8,13 +8,12 @@
 </div>
 
 
-<script id="profilepage" type="text/html">
 <div class="ui equal width center aligned padded grid" id="to_bandeau">
  <div class="row">
    <div class="column ">
-     <div class="to ui centered medium image " style="background-image: url({{portrait}})" alt="photo_de_profile"> </div> &nbsp;
-     <h1>{{id}}</h1>
-     <h2>{{occupation}}</h2>
+     <div class="to ui centered medium image " style="background-image: url(img/andrea.jpg)" alt="photo_de_profile"> </div> &nbsp;
+     <h1>{{$users->name}} {{$users->surname}}</h1>
+     <h2>{{$users->occupation}}</h2>
    </div>
  </div>
  </div>
@@ -32,17 +31,16 @@
  <div class="three wide column centered">
 <div class="ui vertical fluid menu">
  <nav>
-   <a href"{{github}}" class="item"><i class="github alternate icon"></i>Github</a>
-   <a href"{{linkedin}}" class="item"><i class="linkedin icon"></i>Linkedin</a>
-   <a href"{{website}}" class="item"><i class="desktop icon"></i>Site perso</a>
+   <a href"http://www.github.com" class="item"><i class="github alternate icon"></i>Github</a>
+   <a href"http://linkedin.com" class="item"><i class="linkedin icon"></i>Linkedin</a>
+   <a href"http://google.fr" class="item"><i class="desktop icon"></i>Site perso</a>
  </nav>
  </div>
 </div>
 <div class="ten wide column centered  ui menu bio">
  <h2 class="ui horizontal divider ">Biographie</h2>
- <p class="bio_paragraphe">{{biographie}}</p>
+ <p class="bio_paragraphe">{{$users->biographie}}</p>
 </div>
 </div>
-</script>
 
 @endsection
