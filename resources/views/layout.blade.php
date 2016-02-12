@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <div id="main_menu" class="animated ui top fixed inverted pointing menu j-menu-main headroom --not-top">
+  <div id="main_menu" class="animated ui top fixed inverted pointing menu j-menu-main headroom--not-top">
 
     <a class="j-menu-logo" href="/">&nbsp</a>
 
@@ -60,14 +60,14 @@
     <div class="column">
 
 
-       <div class="menu-endpage">
-         <a class="item" href="accueil.html">Accueil</a>
-         <a class="item" href="promotion.html">Promotions</a>
-         <a class="item" href="partenaires.html">Partenaires</a>
-         <a class="item" href="temoignage.html">Témoignages</a>
-         <a class="item" href="team.html">Équipe</a>
-         <a class="item" href="contact.html">Contact</a>
-         <a class="item" href="#">Mentions légales</a>
+       <div class="vertical-menu-endpage">
+         <a class="item menu-endpage" href="/index.html">Accueil</a>
+         <a class="item menu-endpage" href="/promotion.html">Promotions</a>
+         <a class="item menu-endpage" href="/partenaires.html">Partenaires</a>
+         <a class="item menu-endpage" href="/temoignage.html">Témoignages</a>
+         <a class="item menu-endpage" href="/team.html">Équipe</a>
+         <a class="item menu-endpage" href="/contact.html">Contact</a>
+         <a class="item menu-endpage" href="#">Mentions légales</a>
       </div>
 
     </div>
@@ -92,15 +92,19 @@
     </div>
 
     <div class="column">
-      <p class="p-footer">Simplon & <abbr title="Ecole de la deuxième chance">ER2C</abbr></p>
+      <p class="p-footer">Simplon Midi-Pyrénées<br>
+      <br>
+       & <br>
+      <br>
+       <abbr title="Ecole de la deuxième chance">ER2C</abbr></p>
 
-      <p class="p-footer adresse"><address class="p-footer">
+     <!--  <p class="p-footer adresse"><address class="p-footer">
         57 Allée de Bellefontaine<br>
         BP 13589 <br>
         31035 Toulouse<br>
         N° : 0534637980
       </address>
-      </p>
+      </p> -->
 
       <a  class="p-footer" href="mailto:mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
 
@@ -125,7 +129,7 @@
 
   </div>
 
-  <div class="bh-copy">&copy; 2016 Simplon.co Midi-Pyrénées </div>
+  <div class="bh-copy">&copy; 2016 Simplon.co</div>
 
 <!-- chargement des scripts -->
 <script src="/js/app.js"></script>

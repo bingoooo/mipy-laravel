@@ -302,7 +302,29 @@ a.p-footer {
   display: none; }
 
 .menu-endpage {
-  color: #fff; }
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px; }
+
+.vertical-menu-endpage {
+  margin-left: 15px;
+  margin-top: 10px; }
+
+.edit.icon {
+  color: #FFDE0D; }
+
+.newspaper.icon {
+  color: #FFDE0D; }
+
+.users.icon {
+  color: #FFDE0D; }
+
+.mail.icon {
+  color: #FFDE0D; }
+
+.send.icon {
+  color: #FFDE0D; }
 
 .ph-titre {
   text-align: center; }
@@ -422,6 +444,30 @@ a.p-footer {
   font-size: 35px;
   margin-top: 80px; }
 
+.ui.container {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.img-formation {
+  padding-left: 0;
+  padding-right: 0; }
+
+.ui.large.buttons {
+  margin: 0 auto;
+  width: 600px; }
+
+.ui.button {
+  background-color: #e42931;
+  color: #fff; }
+
+.formdev {
+  width: 600px;
+  height: 50px; }
+
+.formjava {
+  width: 600px;
+  height: 50px; }
+
 .fg-hero {
   background: url("../img/groupe.jpg") no-repeat center;
   background-size: cover;
@@ -467,10 +513,13 @@ html {
   @media screen and (min-width: 1201px) {
     .j-menu-main.headroom--top .j-menu-logo {
       background-image: url(/img/logo.svg);
-      height: 400px;
+      height: 300px;
       position: fixed; } }
   .j-menu-main.headroom--not-top {
     height: 60px; }
+
+.j-menu-logo {
+  z-index: 999; }
 
 .image-formation {
   top: 0; }
