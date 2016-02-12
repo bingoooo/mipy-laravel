@@ -5,3 +5,4 @@ Homestead.json
 .env
 generate.php
 /database
+/config/database.php

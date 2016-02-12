@@ -15,6 +15,11 @@ use App\User;
 	Route::get('/', function () {
 	    return view('pages.accueil');
 	});
+	Route::get('/actualites.html', function(){
+		$test = 'Bouh Bouh';
+		var_dump($test);
+		return view('pages.article');
+	});
 
 	Route::get('/{page}.html', function ($page) {
 	    return view('pages.'.$page);

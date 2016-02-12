@@ -55,7 +55,7 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'database'  => 'simplonmip',
+            'database'  => 'simplonmipbenji',
             'username'  => 'root',
             'password'  => 'simplonco',
             'charset'   => 'utf8',
