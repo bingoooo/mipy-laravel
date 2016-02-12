@@ -10,6 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+use App\User;
 
 	Route::get('/', function () {
 	    return view('pages.accueil');
@@ -17,4 +18,8 @@
 
 	Route::get('/{page}.html', function ($page) {
 	    return view('pages.'.$page);
+	});
+	Route::get('/profile{id}', function($id){
+		$users = User::find($id);
+		return view('pages.profile', ['users' => $users]);
 	});
