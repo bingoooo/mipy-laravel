@@ -4,5 +4,6 @@ Homestead.yaml
 Homestead.json
 .env
 generate.php
+generate_news.php
 /database
 /config/database.php
