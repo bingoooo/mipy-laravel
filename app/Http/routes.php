@@ -18,6 +18,9 @@ use App\User;
 	Route::get('/actualites.html', function(){
 		return view('pages.actualites');
 	});
+	Route::get('/article.html', function(){
+		return view('pages.article');
+	});
 
 	Route::get('/{page}.html', function ($page) {
 	    return view('pages.'.$page);

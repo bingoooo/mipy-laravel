@@ -11,7 +11,7 @@
 <div class="ui equal width center aligned padded grid" id="to_bandeau">
  <div class="row">
    <div class="column ">
-     <div class="to ui centered medium image " style="background-image: url(img/andrea.jpg)" alt="photo_de_profile"> </div> &nbsp;
+     <img class="to ui centered medium image " src="{{$users->picture}}" alt="photo_de_profile">  &nbsp;
      <h1>{{$users->name}} {{$users->surname}}</h1>
      <h2>{{$users->occupation}}</h2>
    </div>
