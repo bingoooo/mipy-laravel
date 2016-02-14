@@ -10922,7 +10922,7 @@ if ($('.fg-hero').length > 0) {
 $(document).ready(function () {
 	$('.right.menu.open').on("click", function (e) {
 		e.preventDefault();
-		$('#main-menu').toggle();
+		$('.ui.vertical.menu').toggle();
 	});
 
 	$('.ui.dropdown').dropdown();
