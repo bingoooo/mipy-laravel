@@ -135,7 +135,7 @@
 
 <script type="text/javascript">
   WebFontConfig = {
-    google: { families: [ 'Open+Sans::latin'/*, 'Ubuntu::latin'*/ ] }
+    google: { families: [ 'Open+Sans::latin', 'Fugaz+One::latin'/*, 'Ubuntu::latin'*/ ] }
   };
   (function() {
     var wf = document.createElement('script');

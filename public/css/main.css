@@ -467,6 +467,11 @@ a.p-footer {
   width: 600px;
   height: 50px; }
 
+.titre-formation {
+  margin-top: 100px;
+  font-family: 'Fugaz One';
+  font-size: 55px; }
+
 .fg-hero {
   background: url("../img/groupe.jpg") no-repeat center;
   background-size: cover;
@@ -590,7 +595,9 @@ p {
 
 .titre-page {
   text-align: center;
-  margin-top: 100px; }
+  margin-top: 100px;
+  font-family: 'Fugaz One';
+  font-size: 55px; }
 
 .img-frontend-form {
   width: 20%; }
@@ -598,6 +605,13 @@ p {
 .ui.items > .item {
   margin: 75px auto; }
 
+.titre-dev {
+  font-family: 'Fugaz One';
+  font-size: 35px; }
+
+/*.img-java {
+	width: 40%;
+}*/
 body {
   background-image: url(/img/fabric_plaid.png); }
 

@@ -1,7 +1,8 @@
 .titre-page {
 	text-align: center;
-	margin-top: 100px
-
+	margin-top: 100px;
+	font-family: 'Fugaz One';
+	font-size: 55px;
 }
 
 .img-frontend-form {
@@ -10,4 +11,9 @@
 
 .ui.items>.item {
 	margin: 75px auto;
+}
+
+.titre-dev {
+	font-family: 'Fugaz One';
+	font-size: 35px;
 }
