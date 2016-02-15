@@ -338,12 +338,11 @@ a.p-footer {
 }
 
 .send.icon {
-  color: #FFDE0D; }
-
+  color: #FFDE0D;
+}*/
 .contenu.ui.grid.text.container.hp-global {
   margin-top: 80px; }
 
-}*/
 .ph-titre {
   text-align: center; }
 
@@ -483,6 +482,11 @@ a.p-footer {
   width: 600px;
   height: 50px; }
 
+.titre-formation {
+  margin-top: 100px;
+  font-family: 'Fugaz One';
+  font-size: 55px; }
+
 .fg-hero {
   background: url("../img/groupe.jpg") no-repeat center;
   background-size: cover;
@@ -565,24 +569,24 @@ p {
   font-size: 1.25em;
   text-align: justify; }
 
-.mh-bouton.mh-bouton.mh-bouton {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #DD1E25; }
+.container {
+  margin-top: 120px; }
 
-.mh-FondDesBlocks.mh-FondDesBlocks.mh-FondDesBlocks {
-  background-color: white; }
+.ui.segment {
+  box-shadow: none;
+  border: transparent;
+  background-color: transparent; }
+
+.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card {
+  box-shadow: none;
+  background-color: transparent; }
 
 .mh-contener.mh-contener.mh-contener {
   padding-bottom: 60px; }
 
-.bh-copy {
-  border-top: 1px solid #333;
-  width: 100%;
-  text-align: center;
-  color: #666;
-  padding-top: 15px;
-  padding-bottom: 15px; }
+.mh-bouton.mh-bouton.mh-bouton {
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding {
   padding: 0px; }
@@ -606,7 +610,9 @@ p {
 
 .titre-page {
   text-align: center;
-  margin-top: 100px; }
+  margin-top: 100px;
+  font-family: 'Fugaz One';
+  font-size: 55px; }
 
 .img-frontend-form {
   width: 20%; }
@@ -614,6 +620,13 @@ p {
 .ui.items > .item {
   margin: 75px auto; }
 
+.titre-dev {
+  font-family: 'Fugaz One';
+  font-size: 35px; }
+
+/*.img-java {
+	width: 40%;
+}*/
 body {
   background-image: url(/img/fabric_plaid.png); }
 

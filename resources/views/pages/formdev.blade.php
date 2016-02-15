@@ -32,7 +32,7 @@
 
 <div class="ui two column doubling stackable grid container">
   <div class="column">
-    <h2>Front-End</h2>
+    <h2 class="titre-dev">Front-End</h2>
   <div class="ui items">
     <div class="item html5">
         <div class="image img-frontend-form">
@@ -71,7 +71,7 @@
     </div>
   </div>
   <div class="column">
-    <h2>Back-End</h2>
+    <h2 class="titre-dev">Back-End</h2>
   <div class="ui items">
     <div class="item php">
         <div class="image img-frontend-form">
