@@ -17,7 +17,7 @@ use App\News;
 	    return view('pages.accueil');
 	});
 	Route::get('/actualites.html', 'NewsController@NewsPage');
-	Route::get('/article.html', 'NewsController@ArticlePage');
+	Route::get('/article{id}.html', 'NewsController@ArticlePage');
 
 	Route::get('/{page}.html', function ($page) {
 	    return view('pages.'.$page);

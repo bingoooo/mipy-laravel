@@ -8,7 +8,7 @@
 <div class="ui justified container actualites">
     <div class="ab_container_actu">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu...</p>
-        <a class="page_article" x-script="page_article" href="article.html">
+        <a class="page_article" x-script="page_article" href="article10.html">
             <button class="ui centered labeled icon button ab_bouton_actu">
             <i class="right arrow icon"></i>
             En savoir plus
