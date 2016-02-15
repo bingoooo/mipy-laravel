@@ -19,7 +19,7 @@
   </div>
 
   <div class="column">
-    <img src="/img/java.svg" alt="">
+    <img class="img-java" src="/img/formjava.svg" alt="">
   </div>
 
 </div>
