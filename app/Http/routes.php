@@ -11,16 +11,13 @@
 |
 */
 use App\User;
+use App\News;
 
 	Route::get('/', function () {
 	    return view('pages.accueil');
 	});
-	Route::get('/actualites.html', function(){
-		return view('pages.actualites');
-	});
-	Route::get('/article.html', function(){
-		return view('pages.article');
-	});
+	Route::get('/actualites.html', 'NewsController@NewsPage');
+	Route::get('/article.html', 'NewsController@ArticlePage');
 
 	Route::get('/{page}.html', function ($page) {
 	    return view('pages.'.$page);
