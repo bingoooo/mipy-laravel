@@ -1,22 +1,30 @@
+.ui.container.ph-global{
+	margin-top: 120px;
+}
+
 #partenaire{
     color: white; 
-
 	&:visited{
     text-decoration: none; }
     &:hover {
     color: rgba(0,0,0,0.4); }	
-
 }
 
 .backgroundPartenaire{
 	width:100%;
-	
 	background-size:contain !important;
+}
+.ui.three.column.grid{
+	margin-bottom:40px;
+}
+.titre-partenaire{
+	margin-bottom: 40px;
+	text-align:center;
+}
+.header {
+	font-size:x-large;
 }
 
 .ph-centre{
 	text-align: center;
-}
-.ph-droit {
-	text-align: right;
 }
