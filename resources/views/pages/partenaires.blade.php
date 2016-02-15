@@ -41,7 +41,7 @@
       </div>
       <div class="column ph-centre" >
         <div class="ui small image" >
-          <img src="/img/logo-etincelle-coworking.png" class="backgroundPartenaire " alt="logo Etincelle Coworking">
+          <img src="/img/logo-etincelle-coworking.gif" class="backgroundPartenaire " alt="logo Etincelle Coworking">
           <div class="content">
             <a class="header" href="http://www.coworking-toulouse.com">Etincelle Coworking</a>
           </div>
@@ -65,7 +65,7 @@
     <div class="ui two column grid ">
       <div class="column ph-centre"> 
         <div class="ui small image">
-          <img src="/img/logo-occitech.jpg" class="backgroundPartenaire" alt="logo Occitech">
+          <img src="/img/logo-occitech.png" class="backgroundPartenaire" alt="logo Occitech">
           <div class="content">
             <a class="header ph-partenaire"href="http://www.occitech.fr/">Occitech</a>
           </div>

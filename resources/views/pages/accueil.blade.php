@@ -39,7 +39,7 @@
   </div>
   
   <div class="column">
-    <img class="ui image" src="./img/logo-etincelle-coworking.png" alt="">
+    <img class="ui image" src="./img/logo-etincelle-coworking.gif" alt="">
   </div>
 
   <div class="column">
