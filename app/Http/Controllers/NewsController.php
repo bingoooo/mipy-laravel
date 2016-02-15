@@ -18,9 +18,9 @@ class NewsController extends Controller
     public function ArticlePage($id)
     {	
     	$news = $this->getNews($id);
-        $format = 'dMY';
-        $date = $news->created_at;
-		return view('pages.article', ['news' => $news]);
+        $dateSrc = $news->created_at;
+        $date = date('d M Y', strtotime($dateSrc));
+		return view('pages.article', ['news' => $news, 'date' => $date]);
     }
     public function getMultipleNews()
     {
