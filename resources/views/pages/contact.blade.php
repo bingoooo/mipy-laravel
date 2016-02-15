@@ -2,17 +2,18 @@
 
 @section('content')
 
-<div class="ui segment equal width center aligned padded">
-    <h2><b>Contactez Nous</b></h2>
+<div class="container">
+<div class="ui segment equal width center aligned padded ">
+    <h2>Nous contacter</h2>
 </div>
 <div class="ui stackable equal width center aligned padded grid cards">
-    <div class="card mh-FondDesBlocks">
-        <div class="mh-photo image">
-            <img src="img/ecolemodifier.jpg"  alt="image exterieur de l'école de la deuxieme chance de toulouse">
+    <div class="ui card ">
+        <div class="image">
+            <img src="img/logo-er2c.png"  alt="image exterieur de l'école de la deuxieme chance de toulouse">
         </div>
-        <div class="content">
+        <div class="content renseignement">
             <h2 class="header">Ecole Régionale de la Deuxième Chance</h2>
-            <div class="meta">
+            <div class="adresse">
                 <p>
                     57 Allée de Bellefontaine<br>
                     BP 13589 <br>
@@ -23,15 +24,15 @@
             <a href="mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
         </div>
     </div>
-    <div class="card mh-FondDesBlocks">
+    <div class="ui card ">
         <div class="mh-photo image">
-            <img src="img/Jfkmodifier.jpg"  alt="image de Jean François KAPPES">
+            <img src="img/logo-b.svg"  alt="image de Jean François KAPPES">
         </div>
         <div class="content">  
             <h3 class="header">Jean François KAPPES</h3>
-            <div class="meta">
+            <div class="adresse">
                 <p>
-                    Directeur Général <br>de Simplon MIP
+                    Directeur <br>de Simplon MIP
                     <br>N° : 0676450629
                 </p>
             </div>
@@ -42,14 +43,14 @@
 
 <div class="ui  equal width center aligned padded grid">
     <a href="http://osm.org/go/xVH~ues_8-?layers=Q&m=&node=2011456546">
-    <img class="mh-map ui segment big image ui grid" src="img/map.jpg">
+        <img class="mh-map ui segment big image ui grid" src="img/map.jpg">
     </a>
 </div>
 <div class="mh-contener ui centered grid">
     <div class="ui form segment mh-FondDesBlocks">
         <div class="two fields">
             <div class="field">
-            <label>Prenom Nom</label>
+                <label>Prenom Nom</label>
                 <input placeholder="Prenom Nom" type="text">
             </div>
             <div class="field">
@@ -59,12 +60,12 @@
             
         </div>
         <div class="field">
-                <label>Message</label>
-                <textarea name="message" id="mh-message" cols="30" rows="10"></textarea>
-                <button class="ui red button mh-bouton" type="submit">Envoyer</button>
-            </div>
+            <label>Message</label>
+            <textarea name="message" id="mh-message" cols="30" rows="10"></textarea>
+            <button class="ui red button mh-bouton" type="submit">Envoyer</button>
+        </div>
     </div>
 
 </div>
-
+</div>
 @endsection

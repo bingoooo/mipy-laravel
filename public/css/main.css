@@ -565,24 +565,24 @@ p {
   font-size: 1.25em;
   text-align: justify; }
 
-.mh-bouton.mh-bouton.mh-bouton {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #DD1E25; }
+.container {
+  margin-top: 120px; }
 
-.mh-FondDesBlocks.mh-FondDesBlocks.mh-FondDesBlocks {
-  background-color: white; }
+.ui.segment {
+  box-shadow: none;
+  border: transparent;
+  background-color: transparent; }
+
+.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card {
+  box-shadow: none;
+  background-color: transparent; }
 
 .mh-contener.mh-contener.mh-contener {
   padding-bottom: 60px; }
 
-.bh-copy {
-  border-top: 1px solid #333;
-  width: 100%;
-  text-align: center;
-  color: #666;
-  padding-top: 15px;
-  padding-bottom: 15px; }
+.mh-bouton.mh-bouton.mh-bouton {
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding {
   padding: 0px; }
