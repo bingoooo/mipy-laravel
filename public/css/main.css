@@ -306,21 +306,25 @@ a.p-footer {
   margin-left: 15px;
   margin-top: 10px; }
 
-.edit.icon {
-  color: #FFDE0D; }
+/*.edit.icon {
+  color: #FFDE0D;
+}
 
 .newspaper.icon {
-  color: #FFDE0D; }
+  color: #FFDE0D;
+}
 
 .users.icon {
-  color: #FFDE0D; }
+  color: #FFDE0D;
+}
 
 .mail.icon {
-  color: #FFDE0D; }
+  color: #FFDE0D;
+}
 
 .send.icon {
-  color: #FFDE0D; }
-
+  color: #FFDE0D;
+}*/
 .ph-titre {
   text-align: center; }
 
@@ -584,7 +588,17 @@ p {
     .as-card .as-card-column > div {
       height: 310px; } }
 
+.titre-page {
+  text-align: center;
+  margin-top: 100px; }
+
+.img-frontend-form {
+  width: 20%; }
+
+.ui.items > .item {
+  margin: 75px auto; }
+
 body {
-  background-color: #FCFCFC; }
+  background-image: url(/img/fabric_plaid.png); }
 
 /*# sourceMappingURL=main.css.map */
