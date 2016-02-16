@@ -1,13 +1,16 @@
 @extends('layout')
 
 @section('content')
+<div class="container">
+<div class="ui segment equal width center aligned padded ">
+    <h2>Equipe</h2>
+</div>
 
 <div class="ui three column stackable centered grid container smp-padding">
 	<div class="row as-card">
 		<div class="column nopadding as-card">
-			<div style="background-image: url('./img/JFk.jpg')" class="as-card-image">
+			<img src="./img/JFk.jpg" class="as-card-image" title="photo de Jean-François Kappes Directeur régional" alt="photo de Jean-François Kappes Directeur régional">
 				&nbsp;
-			</div>
 		</div>
 		<div class="column nopadding as-card">
 			<div class="ui attached segment as-card-description">
@@ -24,7 +27,7 @@
 	<div class="four column centered row">
 		<div class="five wide column">
 			<div class="ui attached segment">
-				<img class="ui medium image" src="./img/amine.jpg">
+				<img class="ui medium image" src="./img/amine.jpg" title="Amine El Ghayate Formateur Facilitateur "alt="photo d'Amine El Ghayate Formateur Facilitateur">
 			</div>
 			<div class="ui attached segment">
 				<h3 class="ui dividing header">Amine El Ghayate</h3>
@@ -34,7 +37,7 @@
 
 		<div class="five wide column">
 			<div class="ui attached segment">
-				<img class="ui medium image" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/0a1/265/221a113.jpg">
+				<img class="ui medium image" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/0a1/265/221a113.jpg"title="photo de Maxime Pawlak Formateur Facilitateur"alt="photo de Maxime Pawlak Formateur Facilitateur">
 			</div>
 			<div class="ui attached segment">
 				<h3 class="ui dividing header">Maxime Pawlak</h3>
@@ -44,5 +47,5 @@
 	</div>
 
 </div>
-
+</div>
 @endsection
