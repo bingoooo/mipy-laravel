@@ -67,7 +67,7 @@
          <a class="item menu-endpage" href="/temoignage.html">Témoignages</a>
          <a class="item menu-endpage" href="/team.html">Équipe</a>
          <a class="item menu-endpage" href="/contact.html">Contact</a>
-         <a class="item menu-endpage" href="#">Mentions légales</a>
+         <a class="item menu-endpage" href="/mentionslegales.html">Mentions légales</a>
       </div>
 
     </div>
@@ -112,16 +112,16 @@
        <div class="ui grid">
         <div class="four column center row">
           <div class="column"> 
-            <a href="https://github.com/SimplonTlse" class="item"><i class="github large icon"></i></a>
+            <a href="https://github.com/SimplonTlse" class="item"><i class="github big icon"></i></a>
           </div>
           <div class="column">
-            <a href="https://fr-fr.facebook.com/Simplon.co" class="item"><i class="facebook large icon"></i></a>
+            <a href="https://fr-fr.facebook.com/Simplon.co" class="item"><i class="facebook big icon"></i></a>
           </div>
           <div class="column">
-            <a href="https://twitter.com/simplonMIP" class="item"><i class="twitter large icon"></i></a>
+            <a href="https://twitter.com/simplonMIP" class="item"><i class="twitter big icon"></i></a>
           </div>
           <div class="column">
-            <a href="#" class="item"><i class="google plus large icon"></i></a>
+            <a href="#" class="item"><i class="google plus big icon"></i></a>
           </div>
         </div>
       </div>

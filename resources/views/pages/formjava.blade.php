@@ -27,5 +27,16 @@
     </p>
   </div>
 </div>
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons formdev">
+      <a class="formdev" href="/formdev.html"><button class="ui button formdev">Formation Développement Web</button></a>
+  </div>
+</div>
+
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons java">
+      <a class="formjava" href="/formation.html"><button class="ui button formjava">Formation</button></a>
+  </div>
+</div>
 
 @endsection

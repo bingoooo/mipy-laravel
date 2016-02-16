@@ -114,5 +114,16 @@
     Des compétences et des technologies : le développement « front-end » (ce qu’on voit à l’écran, avec HTML, CSS et Javascript), le développement « back-end » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces Des méthodes : méthodologies agiles, pair programming, etc. Des outils : Git, Github, Slack, Sublime text, etc. Des ouvertures sur d’autres domaines : Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing, … Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment. Nouveau dès novembre 2015 : possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)
   </p>
 </div>
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons formdev">
+      <a class="formdev" href="/formjava.html"><button class="ui button formdev">Formation Java</button></a>
+  </div>
+</div>
+
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons java">
+      <a class="formjava" href="/formation.html"><button class="ui button formjava">Formation</button></a>
+  </div>
+</div>
 
 @endsection
