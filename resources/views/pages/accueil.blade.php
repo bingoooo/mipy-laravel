@@ -29,8 +29,38 @@
     Webmaster, startup, développeur voire simple curieux, ce meetup peut vous intéresser #web #security #code #NSA 
   </p>
 </div>
-
-<h2 class="accueil-titre-h2">Partenaires</h2>
+<div class="titre-partenaire">
+    <h2 class="accueil-titre-h2">Partenaires</h2>
+  </div>  
+  <div class="ui contener ">
+    <div class="ui three column grid ">
+      <div class="column ph-centre"> 
+        <div class="ui small image">
+          <img src="/img/crv-partenaires.png" class="backgroundPartenaire" alt="logo cours Rousselot Voltaire">
+          <div class="content">
+            <a class="header ph-partenaire"href="http://www.rousselot-voltaire.com">Cours Rousselot Voltaire</a>
+          </div>
+        </div>
+      </div>
+      <div class="column ph-centre" >
+        <div class="ui small image" >
+          <img src="/img/etincelle-partenaires.png" class="backgroundPartenaire " alt="logo Etincelle Coworking">
+          <div class="content">
+            <a class="header" href="http://www.coworking-toulouse.com">Etincelle Coworking</a>
+          </div>
+        </div>
+      </div>
+      <div class="column ph-centre">
+        <div class="ui small image">
+          <img src="/img/lamelee-partenaires.png" class="backgroundPartenaire" alt="logo La Melee">
+          <div class="content">
+            <a class="header" href="http://www.lamelee.com">la Mêlée </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+<!-- <h2 class="accueil-titre-h2">Partenaires</h2>
 
 <div class="ui five column doubling stackable grid container">
 
@@ -45,9 +75,7 @@
   <div class="column">
     <img class="ui image" src="./img/logo-lamelee.png" alt="">
   </div>
-
-
-</div>
+</div> -->
 
 
 @endsection

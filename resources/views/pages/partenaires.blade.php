@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="ui container ph-global">
-    <h1 class="ui one column center aligned header">Partenaires</h1>
+    <h1 class="ui one column center aligned header accueil-titre-h2">Partenaires</h1>
   <div class="ui vertically divided container stackable grid">
     <div class="ui two column row">
       <div class="sixteen wide tablet twelve wide computer column ">
@@ -27,29 +27,29 @@
   </div>
 
   <div class="titre-partenaire">
-    <h2 class="ui header">Tous les jours ils font SimplonMIP avec nous</h2>
+    <h2 class="ui header accueil-titre-h2">Tous les jours ils font SimplonMIP avec nous</h2>
   </div>  
   <div class="ui contener ">
     <div class="ui three column grid ">
       <div class="column ph-centre"> 
-        <div class="ui small image">
-          <img src="/img/logo-crv.png" class="backgroundPartenaire" alt="logo cours Rousselot Voltaire">
+        <div class="ui large image">
+          <img src="/img/crv-partenaires.png" class="backgroundPartenaire" alt="logo cours Rousselot Voltaire">
           <div class="content">
             <a class="header ph-partenaire"href="http://www.rousselot-voltaire.com">Cours Rousselot Voltaire</a>
           </div>
         </div>
       </div>
       <div class="column ph-centre" >
-        <div class="ui small image" >
-          <img src="/img/logo-etincelle-coworking.gif" class="backgroundPartenaire " alt="logo Etincelle Coworking">
+        <div class="ui large image" >
+          <img src="/img/etincelle-partenaires.png" class="backgroundPartenaire " alt="logo Etincelle Coworking">
           <div class="content">
             <a class="header" href="http://www.coworking-toulouse.com">Etincelle Coworking</a>
           </div>
         </div>
       </div>
       <div class="column ph-centre">
-        <div class="ui small image">
-          <img src="/img/logo-lamelee.png" class="backgroundPartenaire" alt="logo La Melee">
+        <div class="ui large image">
+          <img src="/img/lamelee-partenaires.png" class="backgroundPartenaire" alt="logo La Melee">
           <div class="content">
             <a class="header" href="http://www.lamelee.com">la Mêlée </a>
           </div>
@@ -59,21 +59,21 @@
   </div> 
 
 <div class="titre-partenaire">
-    <h2 class="ui header">Les intervenants</h2>
+    <h2 class="ui header accueil-titre-h2">Les intervenants</h2>
   </div> 
   <div class="ui contener ">
     <div class="ui two column grid ">
       <div class="column ph-centre"> 
-        <div class="ui small image">
-          <img src="/img/logo-occitech.png" class="backgroundPartenaire" alt="logo Occitech">
+        <div class="ui large image">
+          <img src="/img/occitech-partenaires.png" class="backgroundPartenaire" alt="logo Occitech">
           <div class="content">
             <a class="header ph-partenaire"href="http://www.occitech.fr/">Occitech</a>
           </div>
         </div>
       </div>
       <div class="column ph-centre" >
-        <div class="ui small image" >
-          <img src="/img/logo-myopencity.png" class="backgroundPartenaire " alt="logo Myopencity">
+        <div class="ui large image" >
+          <img src="/img/myopencity-partenaires.png" class="backgroundPartenaire " alt="logo Myopencity">
           <div class="content">
             <a class="header" href="http://www.myopencity.fr">Myopencity</a>
           </div>
