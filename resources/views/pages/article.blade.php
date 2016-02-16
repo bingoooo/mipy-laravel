@@ -14,6 +14,6 @@
 			Retour aux articles
 		</button>
 	</a>
-	</div>
+</div>
 
 @endsection

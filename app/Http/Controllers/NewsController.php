@@ -13,9 +13,11 @@ class NewsController extends Controller
     //
     public function NewsPage()
     {
-        $news = $this->getLastEvents();
-        if($news!==0){
-            return view('pages.actualites', ['news' => $news]);
+        $lastNews = $this->getLastNews();
+        $lastEvents = $this->getLastEvents();
+        if($lastNews!==0){
+            //$lastNews->preview = substr($lastNews->contenu, 0, 400);
+            return view('pages.actualites', ['lastNews' => $lastNews, 'lastEvents' => $lastEvents]);
         }
 		return view('pages.actualites');
     }
@@ -30,20 +32,22 @@ class NewsController extends Controller
             return redirect('/');
         }
     }
-    public function getAllNews()
+    public function getLastNews()
     {
-    	$news = News::all();
+    	$newsData = News::all();
+        $news = $newsData->last();
     	return $news;
     }
     public function getLastEvents(){
         $currentTime = time();
-        $news = News::select('select * from news where event_date < ?', [$currentTime]);
-        if(sizeof($news)>0){
-            return $news;
-        } else {
-            return 0;
+        $newsData = News::all();
+        $last = $newsData->last()->id;
+        $news = [];
+        for ($i = 0; $i < 3; $i++){
+            $news[] = $newsData->find($last-$i);
         }
-    }
+        return $news;
+        }
     public function getNews($id)
     {
     	$news = News::find($id);

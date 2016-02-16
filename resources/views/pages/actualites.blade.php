@@ -1,22 +1,18 @@
 @extends('layout')
 
 @section('content')
-<?php var_dump(sizeof($news)); ?>
     <img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
     
-    @foreach($news as $new)
-        <h1>{{$new->titre}}</h1>
-    @endforeach
-    <h1 class="ui center aligned header ab_titre_actu">Start'up Week !</h1>
-    <p class="ab_date_actu">10 fevrier 1994</p>
+    <h1 class="ui center aligned header ab_titre_actu">{{$lastNews->titre}}</h1>
+    <p class="ab_date_actu">{{$lastNews->event_date}}</p>
 <div class="ui justified container actualites">
     <div class="ab_container_actu">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu...</p>
+        <?php echo html_entity_decode($lastNews->contenu); ?>
         <a class="page_article" x-script="page_article" href="article10.html">
-            <button class="ui centered labeled icon button ab_bouton_actu">
-            <i class="right arrow icon"></i>
-            En savoir plus
-            </button>
+        <button class="ui centered labeled icon button ab_bouton_actu">
+        <i class="right arrow icon"></i>
+        En savoir plus
+        </button>
         </a>
     </div>
         <br>
