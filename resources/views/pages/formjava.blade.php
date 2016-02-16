@@ -17,13 +17,10 @@
     340h en période de professionnalisation pour les salariés. Durée totale : de 3 à 6 mois (à définir selon les besoins).
     </p>
   </div>
-
   <div class="column">
     <img class="img-java" src="/img/formjava.svg" alt="">
   </div>
-
 </div>
-
 <div class="ui one column doubling stackable grid container">
   <div class="column">
     <p>Validation à l’issue de la formation : évaluation continue, pratique en entreprise, mise en situation, jury Publics cibles éligibles : au contrat de professionnalisation : jeunes de moins de 26 ans, et demandeurs(ses) d’emploi de plus de 26 ans à la période de professionnalisation : salarié(es) (en poste ou en reconversion).

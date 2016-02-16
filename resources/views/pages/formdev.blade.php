@@ -14,7 +14,6 @@
     Une formation dont la sélection se fait sur la motivation et l’envie de travailler en équipe !
     Un écosystème riche comprenant une communauté de mentors, de professionnels, des partenaires publics, privés et non-marchands…</p>
 </div>
-
 <div class="ui two column doubling stackable grid container">
   <div class="column">
     <h2>Le programme des 6 mois de formation ?</h2>
@@ -23,28 +22,25 @@
       et différentes techniques de mise en oeuvre.
     </p>
   </div>
-
   <div class="column">
     <img src="../img/code-d.jpeg" alt="">
   </div>
-
 </div>
-
 <div class="ui two column doubling stackable grid container">
   <div class="column">
     <h2 class="titre-dev">Front-End</h2>
-  <div class="ui items">
-    <div class="item html5">
+    <div class="ui items">
+      <div class="item html5">
         <div class="image img-frontend-form">
           <img class="img-frontend-form" src="/img/html5-xs.svg">
         </div>
         <div class="content">
           <a class="header">HTML5</a>
-        <div class="description">
-          <p>L’Hypertext Markup Language, généralement abrégé HTML, est le format de données conçu pour représenter les pages web. C’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec des langages de programmation (JavaScript) et des formats de présentation (feuilles de style en cascade). HTML est initialement dérivé du Standard Generalized Markup Language (SGML).</p>
+          <div class="description">
+            <p>L’Hypertext Markup Language, généralement abrégé HTML, est le format de données conçu pour représenter les pages web. C’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec des langages de programmation (JavaScript) et des formats de présentation (feuilles de style en cascade). HTML est initialement dérivé du Standard Generalized Markup Language (SGML).</p>
+          </div>
         </div>
       </div>
-    </div>
       <div class="item css3">
         <div class="image img-frontend-form">
           <img class="img-frontend" src="/img/css3-xs.svg">
@@ -112,7 +108,6 @@
     </div>
   </div>
 </div>
-
 <div class="ui one column doubling stackable grid container">
   <h2>La formation Dev à Simplon.co c’est quoi ?</h2>
   <p>

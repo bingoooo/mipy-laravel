@@ -3,8 +3,6 @@
 @section('content')
 
 <div class="ui container" id="page-promo">
-	<!-- segment contenent  h1 -->
-
 	<div class="ui equal width center aligned padded grid" id="">
 		<div class="sixteen wide column">
 			<div class="row">
@@ -12,11 +10,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- ligne de 4 images sur une rangée-->
 	<div id="sm-cards" class="ui four stackable cards"> 
 		<script id="cardTemplate" type="text/plain">
-			<!--chargement des photos avec boucle moustache -->
-
 			@{{# users}} 
 			<a href="profile@{{id}}">
 				<div class="card sm-card">
@@ -35,7 +30,6 @@
 				</div>
 			</a>
 			@{{/ users}}
-
 		</script>
 	</div>
 </div>

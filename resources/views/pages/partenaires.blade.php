@@ -17,7 +17,6 @@
         #d’une utilisation de la diversité (âges, origines, approches) au service de l’innovation (tech, sociale et RH)
         ​</p>
       </div>
-
       <div class="eight wide centered tablet four wide computer column ">
         <p>Vous voulez devenir partenaire de Simplon.co et développer avec nous l'innovation pour tous ?</p>
         <a class="huge ui red bottom attached button" tabindex="0" href="mailto:xxxxxxxxx@gmail.com
@@ -25,7 +24,6 @@
       </div>
     </div>  ​
   </div>
-
   <div class="titre-partenaire">
     <h2 class="ui header accueil-titre-h2">Tous les jours ils font SimplonMIP avec nous</h2>
   </div>  
@@ -57,8 +55,7 @@
       </div>
     </div>
   </div> 
-
-<div class="titre-partenaire">
+  <div class="titre-partenaire">
     <h2 class="ui header accueil-titre-h2">Les intervenants</h2>
   </div> 
   <div class="ui contener ">
@@ -81,9 +78,6 @@
       </div>
     </div>
   </div> 
-
-
-
 </div>
 
 @endsection

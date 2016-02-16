@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
-    <h1 class="ui center aligned header ab_titre_actu">Start'up Week !</h1>
-    <p class="ab_date_actu">10 fevrier 1994</p>
+<img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
+<h1 class="ui center aligned header ab_titre_actu">Start'up Week !</h1>
+<p class="ab_date_actu">10 fevrier 1994</p>
 <div class="ui justified container actualites">
     <div class="ab_container_actu">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu...</p>
