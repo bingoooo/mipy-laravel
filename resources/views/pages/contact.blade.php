@@ -4,12 +4,12 @@
 
 <div class="container">
 <div class="ui segment equal width center aligned padded ">
-    <h2>Nous contacter</h2>
+    <h2 class="accueil-titre-h2">Nous contacter</h2>
 </div>
 <div class="ui stackable equal width center aligned padded grid cards">
     <div class="ui card ">
         <div class="image">
-            <img src="img/logo-er2c.png"  alt="image exterieur de l'école de la deuxieme chance de toulouse">
+            <img src="img/er2c-contact.png"  alt="image exterieur de l'école de la deuxieme chance de toulouse">
         </div>
         <div class="content renseignement">
             <h2 class="header">Ecole Régionale de la Deuxième Chance</h2>
@@ -26,7 +26,7 @@
     </div>
     <div class="ui card ">
         <div class="mh-photo image">
-            <img src="img/logo-b.svg"  alt="image de Jean François KAPPES">
+            <img src="img/simplon-contact.png"  alt="image de Jean François KAPPES">
         </div>
         <div class="content">  
             <h3 class="header">Jean François KAPPES</h3>

@@ -146,6 +146,27 @@
 .ph-centre {
   text-align: center; }
 
+.ui.header.accueil-titre-h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-family: 'Open Sans';
+  font-size: 3em; }
+
+.rl-close-icon:hover {
+  cursor: pointer; }
+
+.rl-annonces.rl-annonces.rl-annonces {
+  background-color: white; }
+
+.rl-grobouton.rl-grobouton.rl-grobouton {
+  margin-bottom: 15px;
+  background-color: #dd1e25; }
+
+.rl-grobouton.rl-grobouton.rl-grobouton p {
+  color: white; }
+
 .rl-modal.rl-modal.rl-modal {
   top: 20%; }
 
@@ -264,6 +285,13 @@ body {
   color: rgba(255, 255, 255, 0.9);
   text-align: center; }
 
+.p-footer.link-mail-er2c.p-footer.link-mail-er2c.p-footer.link-mail-er2c.p-footer.link-mail-er2c.p-footer.link-mail-er2c.p-footer.link-mail-er2c {
+  text-align: center !important;
+  font-size: 18px; }
+
+a.p-footer.link-mail-er2c:hover {
+  color: #e42931; }
+
 a.p-footer {
   text-align: center;
   margin: 0 auto; }
@@ -302,6 +330,9 @@ a.p-footer {
   display: block;
   margin-bottom: 15px;
   font-size: 16px; }
+
+a.menu-endpage:hover {
+  color: #e42931; }
 
 .vertical-menu-endpage {
   margin-left: 15px;
@@ -433,6 +464,12 @@ a.p-footer {
   line-height: 0.2em;
   color: #E0E0E0; }
 
+.sixteen.wide.column {
+  margin-top: 120px; }
+
+.ui.four.stackable.cards {
+  margin-top: 20px; }
+
 .smp-margin {
   margin-top: 60px;
   margin-bottom: 20px; }
@@ -556,6 +593,12 @@ p {
   font-weight: 400;
   font-size: 1.25em;
   text-align: justify; }
+
+.bh-copy.footer-copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 auto;
+  bottom: 10px; }
 
 .container {
   margin-top: 120px; }
