@@ -463,6 +463,12 @@ a.menu-endpage:hover {
   line-height: 0.2em;
   color: #E0E0E0; }
 
+.sixteen.wide.column {
+  margin-top: 120px; }
+
+.ui.four.stackable.cards {
+  margin-top: 20px; }
+
 .smp-margin {
   margin-top: 60px;
   margin-bottom: 20px; }
