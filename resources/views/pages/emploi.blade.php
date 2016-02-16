@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="rl-container">
-	<div class="johnson ui fullscreen modal rl-modal">
+	<div class="ui fullscreen modal rl-modal">
 		<i class="rl-croix huge close icon "></i>
 		<div class="header">
 			<i class="rl-crayon write icon"></i>
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 		<div class="actions">
-			<div class="ui labeled icon green button rl-envoyer">Envoyer<i class="rl-marteau large legal icon"> </i></div>
+			<div class="ui labeled icon green button rl-envoyer">Envoyer<i class=" send icon"> </i></div>
 		</div>
 	</div>
 	<div class="ui center aligned container stackable grid rl-grid"> 
@@ -42,7 +42,7 @@
 			<!--<div class="ui segments">-->
 			<div class="two column row">
 				<div class="column">
-					<div class="ui piled segments">
+					<div class="ui segments">
 						<div class="rl-propose ui  segment">
 							<h2>Je propose</h2>
 						</div>
@@ -112,7 +112,7 @@
 
 				</div>
 				<div class="column">
-					<div class="ui piled segments">
+					<div class="ui segments">
 						<div class="rl-cherche ui segment">
 							<h2>Je cherche</h2>
 						</div>
