@@ -3,7 +3,7 @@
 @section('content')
 
     <img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
-    <h1 class="ui center aligned header ab_titre_actu">Start'up Week !</h1>
+    <h1 class="ui center aligned header ab_titre_actu" title="Start'up Week !">Start'up Week !</h1>
     <p class="ab_date_actu">10 fevrier 1994</p>
 <div class="ui justified container actualites">
     <div class="ab_container_actu">
