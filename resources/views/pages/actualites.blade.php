@@ -1,8 +1,12 @@
 @extends('layout')
 
 @section('content')
-
+<?php var_dump(sizeof($news)); ?>
     <img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
+    
+    @foreach($news as $new)
+        <h1>{{$new->titre}}</h1>
+    @endforeach
     <h1 class="ui center aligned header ab_titre_actu">Start'up Week !</h1>
     <p class="ab_date_actu">10 fevrier 1994</p>
 <div class="ui justified container actualites">

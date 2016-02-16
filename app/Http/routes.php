@@ -19,10 +19,5 @@ use App\News;
 	Route::get('/actualites.html', 'NewsController@NewsPage');
 	Route::get('/article{id}.html', 'NewsController@ArticlePage');
 
-	Route::get('/{page}.html', function ($page) {
-	    return view('pages.'.$page);
-	});
-	Route::get('/profile{id}', function($id){
-		$users = User::find($id);
-		return view('pages.profile', ['users' => $users]);
-	});
+	Route::get('/{page}.html', 'PageController@HtmlPage');
+	Route::get('/profile{id}', 'PageController@ProfilePage');
