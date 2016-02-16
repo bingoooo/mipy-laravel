@@ -4,12 +4,12 @@
 
 <div class="container">
 <div class="ui segment equal width center aligned padded ">
-    <h2>Nous contacter</h2>
+    <h2 class="accueil-titre-h2"title="Nous contacter">Nous contacter</h2>
 </div>
 <div class="ui stackable equal width center aligned padded grid cards">
     <div class="ui card ">
         <div class="image">
-            <img src="img/logo-er2c.png"  alt="image exterieur de l'école de la deuxieme chance de toulouse">
+            <img src="img/er2c-contact.png"  title="logo de l'école de la deuxieme chance"alt="logo de l'école de la deuxieme chance de toulouse">
         </div>
         <div class="content renseignement">
             <h2 class="header">Ecole Régionale de la Deuxième Chance</h2>
@@ -26,7 +26,7 @@
     </div>
     <div class="ui card ">
         <div class="mh-photo image">
-            <img src="img/logo-b.svg"  alt="image de Jean François KAPPES">
+            <img src="img/simplon-contact.png" title="logo de simplon midi-pyrénnées" alt="logo de simplon midi-pyrénnées">
         </div>
         <div class="content">  
             <h3 class="header">Jean François KAPPES</h3>
@@ -43,7 +43,7 @@
 
 <div class="ui  equal width center aligned padded grid">
     <a href="http://osm.org/go/xVH~ues_8-?layers=Q&m=&node=2011456546">
-        <img class="mh-map ui segment big image ui grid" src="img/map.jpg">
+        <img class="mh-map ui segment big image ui grid" title="openstreetmap emplacement de l'école de la deuxième chance"src="img/map.jpg">
     </a>
 </div>
 <div class="mh-contener ui centered grid">

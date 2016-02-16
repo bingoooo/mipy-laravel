@@ -2,13 +2,18 @@
 
 @section('content')
     <img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
-    
+    <?php echo count($lastEvents); ?>
+    @foreach($lastEvents as $event)
+        <p>{{$event->titre}}</br>
+        {{$event->updated_at}}
+        </p>
+    @endforeach
     <h1 class="ui center aligned header ab_titre_actu">{{$lastNews->titre}}</h1>
-    <p class="ab_date_actu">{{$lastNews->event_date}}</p>
+    <p class="ab_date_actu">{{$lastNewsForDays}} <?php echo date('d D M Y', strtotime($lastNews->event_date)); ?></p>
 <div class="ui justified container actualites">
     <div class="ab_container_actu">
         <?php echo html_entity_decode($lastNews->contenu); ?>
-        <a class="page_article" x-script="page_article" href="article10.html">
+        <a class="page_article" x-script="page_article" href="article{{$lastNews->id}}.html">
         <button class="ui centered labeled icon button ab_bouton_actu">
         <i class="right arrow icon"></i>
         En savoir plus
@@ -31,8 +36,9 @@
                       <i class="right arrow icon"></i>
                       En savoir plus
                   </button>
-              </div>
-          </div><div class="column">
+                </div>
+            </div>
+            <div class="column">
                 <div class="ui basic segment">
                     <img class="ui fluid image" src="http://lorempixel.com/g/500/200/">
                     <h3 class="ab_titre_carte">C'est la rentrée !</h3>
@@ -40,8 +46,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <br>
                     <button href="article.html" class="ui right labeled icon button ab_bouton_actu">
-                      <i class="right arrow icon"></i>
-                      En savoir plus
+                        <i class="right arrow icon"></i>
+                        En savoir plus
                     </button>
                 </div>
             </div>

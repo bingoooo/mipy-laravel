@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 <div class="ui segment equal width center aligned padded ">
-    <h2>Equipe</h2>
+    <h2 title="Équipe">Équipe</h2>
 </div>
 
 <div class="ui three column stackable centered grid container smp-padding">

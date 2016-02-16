@@ -106,7 +106,7 @@
       </address>
       </p> -->
 
-      <a  class="p-footer" href="mailto:mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
+      <a  class="p-footer link-mail-er2c" href="mailto:mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
 
       <div class="ui inverted menu">
        <div class="ui grid">
@@ -129,7 +129,7 @@
 
   </div>
 
-  <div class="bh-copy">&copy; 2016 Simplon.co</div>
+  <div class="bh-copy footer-copyright">&copy; 2016 Simplon.co</div>
 
 <!-- chargement des scripts -->
 <script src="./js/app.js"></script>
