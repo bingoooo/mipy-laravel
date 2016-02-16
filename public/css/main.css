@@ -154,19 +154,6 @@
   font-family: 'Open Sans';
   font-size: 3em; }
 
-.rl-close-icon:hover {
-  cursor: pointer; }
-
-.rl-annonces.rl-annonces.rl-annonces {
-  background-color: white; }
-
-.rl-grobouton.rl-grobouton.rl-grobouton {
-  margin-bottom: 15px;
-  background-color: #dd1e25; }
-
-.rl-grobouton.rl-grobouton.rl-grobouton p {
-  color: white; }
-
 .rl-modal.rl-modal.rl-modal {
   top: 20%; }
 
