@@ -398,13 +398,13 @@ a.menu-endpage:hover {
     text-align: center; }
 
 .ui.container {
-  padding-top: 80px;
   margin-bottom: 120px; }
 
 .titre-formation {
   font-family: 'Open Sans';
   text-align: center;
-  font-size: 35px; }
+  font-size: 35px;
+  margin-top: 80px; }
 
 .ui.four.cards .sm-card {
   margin: 0px; }

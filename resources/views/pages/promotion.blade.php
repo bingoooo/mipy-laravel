@@ -2,8 +2,10 @@
 
 @section('content')
 
+
+<h1 class="titre-formation" title="Promo 2016">Promo 2016</h1>	
+
 <div class="ui container" id="page-promo">
-	<h1 class="titre-formation" title="Promo 2016">Promo 2016</h1>	
 	<div id="sm-cards" class="ui four stackable cards"> 
 		<script id="cardTemplate" type="text/plain">
 			@{{# users}} 
