@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="ui container ph-global">
-    <h1 class="ui one column center aligned header accueil-titre-h2" title="nos partenaires">Partenaires</h1>
+    <h1 class="titre-formation" title="nos partenaires">Partenaires</h1>
   <div class="ui vertically divided container stackable grid">
     <div class="ui two column row">
       <div class="sixteen wide tablet twelve wide computer column ">

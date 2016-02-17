@@ -61,7 +61,7 @@
 
 
        <div class="vertical-menu-endpage">
-         <a class="item menu-endpage" href="/index.html">Accueil</a>
+         <a class="item menu-endpage" href="/">Accueil</a>
          <a class="item menu-endpage" href="/promotion.html">Promotions</a>
          <a class="item menu-endpage" href="/partenaires.html">Partenaires</a>
          <a class="item menu-endpage" href="/temoignage.html">Témoignages</a>

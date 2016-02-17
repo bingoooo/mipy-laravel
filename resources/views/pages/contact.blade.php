@@ -4,7 +4,7 @@
 
 <div class="container">
 <div class="ui segment equal width center aligned padded ">
-    <h2 class="accueil-titre-h2"title="Nous contacter">Nous contacter</h2>
+    <h1 class="titre-formation contact"title="Nous contacter">Nous contacter</h1>
 </div>
 <div class="ui stackable equal width center aligned padded grid cards">
     <div class="ui card ">
