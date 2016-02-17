@@ -16,9 +16,7 @@ use App\User;
 	    return view('pages.accueil');
 	});
 	Route::get('/actualites.html', function(){
-		$test = 'Bouh Bouh';
-		var_dump($test);
-		return view('pages.article');
+		return view('pages.actualites');
 	});
 
 	Route::get('/{page}.html', function ($page) {
