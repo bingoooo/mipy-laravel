@@ -45,7 +45,7 @@
     </a>
 </div>
 <div class="ui one column doubling stackable grid container">
-    <div class="ui inverted segment formulaire-contact">
+    <form class="ui inverted segment formulaire-contact">
     <div class="ui inverted form">
         <div class="two fields">
             <div class="field">
@@ -76,9 +76,10 @@
                     <textarea></textarea>
                 </div>
             </div>
-            <div class="ui submit button fluid">Envoyer</div>  
+            <!-- <div class="ui submit button fluid">Envoyer</div> -->
+            <button class="ui submit button fluid">Envoyer</button> 
         </div>
-    </div>
+    </form>
 </div>
  
 @endsection
