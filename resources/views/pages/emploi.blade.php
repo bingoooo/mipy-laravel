@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="rl-container">
+<div class="rl-ui container">
 	<div class="ui fullscreen modal rl-modal">
 		<i class="rl-croix huge close icon "></i>
 		<div class="header">
@@ -29,7 +29,7 @@
 	<div class="ui center aligned container stackable grid rl-grid"> 
 		<div class="column row">
 			<section id="main" class="rl-titres"</section>
-				<h1>Recherches et offres d'emploi</h1>
+				<h1 title="Recherches et offres d'emploi">Recherches et offres d'emploi</h1>
 				<h3>Vous êtes recruteur ? <br>
 				Vous recherchez un emploi ?<br>
 				Vous êtes au bon endroit !<br><br></h3>

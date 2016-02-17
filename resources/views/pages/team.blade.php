@@ -3,9 +3,9 @@
 @section('content')
 
 <div class="container">
-	<div class="ui segment equal width center aligned padded ">
-    	<h2>Equipe</h2>
-	</div>
+<div class="ui segment equal width center aligned padded ">
+    <h2 title="Équipe">Équipe</h2>
+</div>
 	<div class="ui three column stackable centered grid container smp-padding">
 		<div class="row as-card">
 			<div class="column nopadding as-card">

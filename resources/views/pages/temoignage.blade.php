@@ -2,9 +2,10 @@
 
 @section('content')
 
-<div class="contenu ui grid text container hp-global">  
-  <div class="sixteen wide column ">
-    <h1 class="ph-titre" >Témoignages de Simploniens(nes)</h1>
+ <div class="contenu ui grid text container hp-global">
+  
+   <div class="sixteen wide column ">
+   <h1 class="ph-titre" title="Témoignages de Simploniens(nes)">Témoignages de Simploniens(nes)</h1>
     <div class="ph-temoignage ui feed">
       <div class="event">
         <div class="ph-label">
