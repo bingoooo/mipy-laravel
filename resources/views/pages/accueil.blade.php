@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="column">
-    <img class="photo-contenu" src="./img/code-b.jpg" title="photo d'un code"alt="photo d'un code">
+    <img class="photo-contenu" src="/img/code-b.jpg" title="photo d'un code" alt="photo d'un code">
   </div>
 </div>
 <div class="ui one column doubling stackable grid container">

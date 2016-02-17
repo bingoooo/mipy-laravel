@@ -18,21 +18,19 @@
                     57 Allée de Bellefontaine<br>
                     BP 13589 <br>
                     31035 Toulouse<br>
-                    N° : 0534637980
-                </p>
+                    N° : 0534637980</p>
+                </div>
+                <a href="mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
             </div>
-            <a href="mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
         </div>
-    </div>
-    <div class="ui card ">
-        <div class="mh-photo image">
-            <img src="img/simplon-contact.png" title="logo de simplon midi-pyrénnées" alt="logo de simplon midi-pyrénnées">
-        </div>
-        <div class="content">  
+        <div class="ui card ">
+            <div class="mh-photo image">
+                <img src="img/simplon-contact.png" title="logo de simplon midi-pyrénnées" alt="logo de simplon midi-pyrénnées">
+            </div>
+            <div class="content">  
             <h3 class="header">Jean François KAPPES</h3>
                 <div class="adresse">
-                    <p>
-                        Directeur <br>de Simplon MIP
+                    <p>Directeur <br>de Simplon MIP
                         <br>N° : 0676450629
                     </p>
                 </div>
@@ -46,20 +44,41 @@
         <img class="mh-map ui segment big image ui grid" title="openstreetmap emplacement de l'école de la deuxième chance"src="img/map.jpg">
     </a>
 </div>
-<div class="mh-contener ui centered grid">
-    <div class="ui form segment mh-FondDesBlocks">
+<div class="ui one column doubling stackable grid container">
+    <div class="ui inverted segment formulaire-contact">
+    <div class="ui inverted form">
         <div class="two fields">
             <div class="field">
-                <label>Prenom Nom</label>
-                <input placeholder="Prenom Nom" type="text">
+                <label for="prenom">Votre Prénom</label>
+                <input id="prenom" placeholder="Votre Prénom" type="text" name="prenom">
             </div>
             <div class="field">
-                <label>Message</label>
-                <textarea name="message" id="mh-message" cols="30" rows="10"></textarea>
-                <button class="ui red button mh-bouton" type="submit">Envoyer</button>
+                <label for="nom">Votre Nom</label>
+                <input id="nom" placeholder="Votre Nom" type="text" name="nom">
             </div>
+        </div>
+        <div class="success">
+            <div class="field">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="joe@schmoe.com" name="email">
+            </div>
+        </div>
+        <div class="field">
+            <div class="field">
+                <label for="sujet">Sujet</label>
+                <input id="sujet" type="text" name="sujet">
+            </div>
+        </div>
+        
+            <div class="field">
+                <div class="field">
+                    <label for="text">Votre Message</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+            <div class="ui submit button fluid">Envoyer</div>  
         </div>
     </div>
 </div>
-
+ 
 @endsection

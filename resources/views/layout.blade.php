@@ -76,7 +76,7 @@
       <p class="p-footer">Suivez notre actualité</p>
       <div class="ui form">
         <label class="two fields">
-          <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><i class="icon send"></i></button>
+          <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><a class="renvoi-contact" href="/contact.html"><i class="icon send"></i></a></button>
         </label>
       </div>
       <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées" title="Logo Région Languedoc Roussillon Midi-Pyrénées">
