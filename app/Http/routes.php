@@ -21,3 +21,7 @@ use App\News;
 
 	Route::get('/{page}.html', 'PageController@HtmlPage');
 	Route::get('/profile{id}', 'PageController@ProfilePage');
+
+	Route::post('/message', function(){
+		return view('pages.accueil');
+	});
