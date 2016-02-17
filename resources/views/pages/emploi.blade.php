@@ -2,30 +2,43 @@
 
 @section('content')
 
-<div class="rl-ui container">
-	<div class="ui fullscreen modal rl-modal">
-		<i class="rl-croix huge close icon "></i>
-		<div class="header">
-			<i class="rl-crayon write icon"></i>
-			Rédigez votre annonce !
-		</div>
-		<div class="content">
-			<div class="ui form">
-				<div class="field">
-					<textarea></textarea>
-				</div>
-				<div class="field of dave">
-					<div class="ui checkbox">
-						<input type="checkbox" checked="checked" name="contact-me">
-						<label>Je suis employeur.</label>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="actions">
-			<div class="ui labeled icon green button rl-envoyer">Envoyer<i class=" send icon"> </i></div>
-		</div>
-	</div>
+<div class="rl-ui container"> 
+	<form class="ui inverted segment formulaire-contact center modal rl-modal">
+    <div class="ui inverted form">
+        <div class="two fields">
+            <div class="field">
+                <label for="prenom">Votre Prénom</label>
+                <input id="prenom" placeholder="Votre Prénom" type="text" name="prenom">
+            </div>
+            <div class="field">
+                <label for="nom">Votre Nom</label>
+                <input id="nom" placeholder="Votre Nom" type="text" name="nom">
+            </div>
+        </div>
+        <div class="success">
+            <div class="field">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="joe@schmoe.com" name="email">
+            </div>
+        </div>
+        <div class="field">
+            <div class="field">
+                <label for="titre annonce">Titre de l'annonce</label>
+                <input id="titre annonce" type="text" name="titre annonce">
+            </div>
+        </div>
+        
+            <div class="field">
+                <div class="field">
+                    <label for="text">
+                    <i class=" write icon"></i>
+                    Votre Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+            </div>
+            <button class="ui submit button fluid">Envoyer</button> 
+        </div>
+    </form>
 	<div class="ui center aligned container stackable grid rl-grid"> 
 		<div class="column row">
 			<section id="main" class="rl-titres"</section>
