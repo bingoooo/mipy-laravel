@@ -335,11 +335,10 @@ a.menu-endpage:hover {
 
 .mail.icon {
   color: #FFDE0D;
-}
-
-.send.icon {
-  color: #FFDE0D;
 }*/
+.send.icon {
+  color: rgba(255, 255, 255, 0.9); }
+
 .contenu.ui.grid.text.container.hp-global {
   padding-top: 0px; }
 
@@ -611,6 +610,14 @@ p {
 .mh-bouton.mh-bouton.mh-bouton {
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.ui.inverted.segment.formulaire-contact {
+  margin-bottom: 50px;
+  margin: 0 auto;
+  width: 52%; }
+
+.ui.submit.button {
+  text-align: center; }
 
 .nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding {
   padding: 0px; }
