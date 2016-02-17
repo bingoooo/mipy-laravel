@@ -3,13 +3,7 @@
 @section('content')
 
 <div class="ui container" id="page-promo">
-	<div class="ui equal width center aligned padded grid" id="">
-		<div class="sixteen wide column">
-			<div class="row">
-				<h1 class="ui dividing header" tabindex="0">Promo 2016</h1>	
-			</div>
-		</div>
-	</div>
+	<h1 class="titre-formation" title="Promo 2016">Promo 2016</h1>	
 	<div id="sm-cards" class="ui four stackable cards"> 
 		<script id="cardTemplate" type="text/plain">
 			@{{# users}} 

@@ -3,18 +3,19 @@
 @section('content')
 
 <div class="container">
-    <div class="ui segment equal width center aligned padded">
-    <h2 class="accueil-titre-h2"title="Nous contacter">Nous contacter</h2>
-    </div>
-    <div class="ui stackable equal width center aligned padded grid cards">
-        <div class="ui card ">
-            <div class="image">
-                <img src="img/er2c-contact.png"  title="logo de l'école de la deuxieme chance" 7alt="logo de l'école de la deuxieme chance de toulouse">
-            </div>
-            <div class="content renseignement">
-                <h2 class="header">Ecole Régionale de la Deuxième Chance</h2>
-                <div class="adresse">
-                    <p>57 Allée de Bellefontaine<br>
+<div class="ui segment equal width center aligned padded ">
+    <h1 class="titre-formation contact"title="Nous contacter">Nous contacter</h1>
+</div>
+<div class="ui stackable equal width center aligned padded grid cards">
+    <div class="ui card ">
+        <div class="image">
+            <img src="img/er2c-contact.png"  title="logo de l'école de la deuxieme chance" alt="logo de l'école de la deuxieme chance de toulouse">
+        </div>
+        <div class="content renseignement">
+            <h2 class="header">Ecole Régionale de la Deuxième Chance</h2>
+            <div class="adresse">
+                <p>
+                    57 Allée de Bellefontaine<br>
                     BP 13589 <br>
                     31035 Toulouse<br>
                     N° : 0534637980</p>
