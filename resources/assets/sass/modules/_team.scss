@@ -1,9 +1,14 @@
 .nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding {
 	padding: 0px;
-} 
+}
+.smp-padding.smp-padding.smp-padding.smp-padding.smp-padding.smp-padding{
+	padding-top: 30px;
+}
+
 .ui.attached.segment.as-card-description{
 	box-shadow:none;
 }
+
 	.as-card-description.as-card-description{
 		height: 310px;
 		border:none;
@@ -25,15 +30,9 @@
 		background-size:cover;
 		background-position: center center;
 	}
-	
+	}
 
-	//@media screen and (min-width: 768px) {
-	//	.as-card-column > div {
-	//	height: 310px;
-	//	}
-	//}
-	
-}
+
 
 
 

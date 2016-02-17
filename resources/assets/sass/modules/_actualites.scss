@@ -1,17 +1,15 @@
+.ui.justified.container.actualites{
+		padding-top: 0px;
+	}
 .actualites {
-	
-	margin-bottom:120px;
 	font-size:16px;
 	line-height:1.6;
 
 	div.ui.segment {
     	height:100%;
 	}
-	.ui.basic.segment {
-    	background-color:#FFF;
-    	border:1px solid #CCC;
-    	border-radius: 0.285714rem;
-	}
+
+	
 	.ab_bouton_actu.ab_bouton_actu.ab_bouton_actu.ab_bouton_actu {
 		margin:0 auto;
 		display:block;
@@ -21,7 +19,6 @@
 		margin-bottom:0;
 	}
 	.ab_date_carte {
-		color:#A4A1A1;
 		font-size:14px;
 		font-style: italic;
 		line-height:2.8;
@@ -35,7 +32,6 @@
 	line-height:1.6;
 }
 .ab_date_actu {
-	color:#A4A1A1;
 	font-size:14px;
 	text-align:center;
 	font-style: italic;
