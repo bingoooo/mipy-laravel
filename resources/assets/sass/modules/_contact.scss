@@ -7,10 +7,11 @@
 	border:transparent;
 	background-color:transparent;
 }
-.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card{
+.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card {
 	box-shadow:none;
 	background-color:transparent;
 }
+
 .mh-contener.mh-contener.mh-contener {
 	padding-bottom: 60px;
 }
@@ -18,4 +19,14 @@
 .mh-bouton.mh-bouton.mh-bouton{
 	margin-top: 10px;
 	margin-bottom:10px;
+}
+
+.ui.inverted.segment.formulaire-contact {
+	margin-bottom: 50px;
+	margin: 0 auto;
+	width: 52%;
+}
+
+.ui.submit.button {
+	text-align: center;
 }
