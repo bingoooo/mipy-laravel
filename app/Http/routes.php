@@ -25,3 +25,6 @@ use App\News;
 	Route::post('/message', function(){
 		return view('pages.accueil');
 	});
+	Route::get('/test', function(){
+		return view('tests.test');
+	});

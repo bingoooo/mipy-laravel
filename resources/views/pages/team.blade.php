@@ -3,15 +3,12 @@
 @section('content')
 
 <div class="container">
-<div class="ui segment equal width center aligned padded ">
-    <h2 title="Équipe">Équipe</h2>
-</div>
+    <h1 class="titre-formation" title="Équipe">Équipe</h1>
 	<div class="ui three column stackable centered grid container smp-padding">
-		<div class="row as-card">
-			<div class="column nopadding as-card">
-				<img src="./img/JFk.jpg" class="as-card-image" title="photo de Jean-François Kappes Directeur régional" alt="photo de Jean-François Kappes Directeur régional">
+		<div class="column nopadding as-card">
+			<img src="./img/JFk.jpg" class="as-card-image" title="photo de Jean-François Kappes Directeur régional" alt="photo de Jean-François Kappes Directeur régional">
 				&nbsp;
-			</div>
+		</div>
 			<div class="column nopadding as-card">
 				<div class="ui attached segment as-card-description">
 					<h3 class="ui dividing header">Jean-François Kappes</h3>
@@ -22,7 +19,6 @@
 					#einclusion #empowerment #diversité #ess #socent #InCodeWeTrust</p>
 				</div>
 			</div>
-		</div>
 		<div class="four column centered row">
 			<div class="five wide column">
 				<div class="ui attached segment">
@@ -33,6 +29,7 @@
 					<h4>Formateur Facilitateur</h4>
 				</div>
 			</div>
+
 			<div class="five wide column">
 				<div class="ui attached segment">
 					<img class="ui medium image" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/0a1/265/221a113.jpg"title="photo de Maxime Pawlak Formateur Facilitateur"alt="photo de Maxime Pawlak Formateur Facilitateur">

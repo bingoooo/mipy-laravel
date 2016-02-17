@@ -80,16 +80,14 @@
   transition: top 0.5s;
   background-color: #1b1c1d; }
 
+.ui.justified.container.actualites {
+  padding-top: 0px; }
+
 .actualites {
-  margin-bottom: 120px;
   font-size: 16px;
   line-height: 1.6; }
   .actualites div.ui.segment {
     height: 100%; }
-  .actualites .ui.basic.segment {
-    background-color: #FFF;
-    border: 1px solid #CCC;
-    border-radius: 0.285714rem; }
   .actualites .ab_bouton_actu.ab_bouton_actu.ab_bouton_actu.ab_bouton_actu {
     margin: 0 auto;
     display: block; }
@@ -97,7 +95,6 @@
     font-size: 20px;
     margin-bottom: 0; }
   .actualites .ab_date_carte {
-    color: #A4A1A1;
     font-size: 14px;
     font-style: italic;
     line-height: 2.8; }
@@ -110,7 +107,6 @@
   line-height: 1.6; }
 
 .ab_date_actu {
-  color: #A4A1A1;
   font-size: 14px;
   text-align: center;
   font-style: italic;
@@ -345,14 +341,16 @@ a.menu-endpage:hover {
   color: #FFDE0D;
 }*/
 .contenu.ui.grid.text.container.hp-global {
+  padding-top: 0px; }
+
+.Temoignages {
+  margin-bottom: 50px; }
+
+.sixteen.wide.column.temoignages {
   margin-top: 80px; }
 
-.ph-titre {
-  text-align: center;
-  padding-bottom: 3em; }
-
 .ph-temoignage.ph-temoignage {
-  padding-top: 1em;
+  padding-top: 2em;
   padding-left: 1em; }
 
 .container.ph-content {
@@ -401,8 +399,13 @@ a.menu-endpage:hover {
     text-align: center; }
 
 .ui.container {
-  margin-top: 60px;
+  padding-top: 80px;
   margin-bottom: 120px; }
+
+.titre-formation {
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 35px; }
 
 .ui.four.cards .sm-card {
   margin: 0px; }
@@ -590,13 +593,16 @@ p {
 .container {
   margin-top: 120px; }
 
+.contact {
+  padding-bottom: 50px; }
+
+.ui.card.ui.card {
+  box-shadow: none;
+  background-color: transparent; }
+
 .ui.segment {
   box-shadow: none;
   border: transparent;
-  background-color: transparent; }
-
-.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card.ui.card {
-  box-shadow: none;
   background-color: transparent; }
 
 .mh-contener.mh-contener.mh-contener {
@@ -608,6 +614,9 @@ p {
 
 .nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding.nopadding {
   padding: 0px; }
+
+.smp-padding.smp-padding.smp-padding.smp-padding.smp-padding.smp-padding {
+  padding-top: 30px; }
 
 .ui.attached.segment.as-card-description {
   box-shadow: none; }

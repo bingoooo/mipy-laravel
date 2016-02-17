@@ -7,3 +7,4 @@ generate.php
 generate_news.php
 /database
 /config/database.php
+/resources/views/tests

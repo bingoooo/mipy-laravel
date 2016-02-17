@@ -15,7 +15,7 @@
         </a>
     </div>
         <br>
-    <h2 class="ui horizontal divider header">Evènements à venir</h2>
+    <h2 class="ui horizontal divider header" title="Evènements à venir">Evènements à venir</h2>
     <div class="ui vertically divided container stackable grid">
         <div class="ui three column row">
         @foreach($lastEvents as $event)
