@@ -26,7 +26,6 @@
   		<a class="formdev" href="/formdev.html"><button class="ui button formdev">Formation Développement Web</button></a>
 	</div>
 </div>
-
 <div class="ui one column doubling stackable grid justified container">
 	<div class="ui large buttons java">
   		<a class="formjava" href="/formjava.html"><button class="ui button formjava">Formation Java</button></a>
