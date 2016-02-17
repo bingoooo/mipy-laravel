@@ -2,10 +2,10 @@
 
 @section('content')
 
-<h1 class="titre-page">Formation Développement Web</h1>
+<h1 class="titre-page" title="Formation Développement Web">Formation Développement Web</h1>
 
 <div class="ui one column doubling stackable grid container">
-  <h2>La formation Dev à Simplon.co c’est quoi ?</h2>
+  <h2 title="La formation Dev à Simplon.co c’est quoi ?">La formation Dev à Simplon.co c’est quoi ?</h2>
   <p>
     Apprendre à créer des sites Internet et des applications web, et en faire son métier
     En intensif, sur un cycle de 6 mois
@@ -16,23 +16,23 @@
 </div>
 <div class="ui two column doubling stackable grid container">
   <div class="column">
-    <h2>Le programme des 6 mois de formation ?</h2>
+    <h2 title="Le programme des 6 mois de formation ?">Le programme des 6 mois de formation ?</h2>
     <p>
       Acquérir des compétences en développement web et mobile, en gestion d'équipe, en administration système, en design et ergonomie, afin d'être capable de créer une application et de la mettre en production. En utilisant différents langages de programmation
       et différentes techniques de mise en oeuvre.
     </p>
   </div>
   <div class="column">
-    <img src="../img/code-d.jpeg" alt="">
+    <img src="/img/code-d.jpeg" alt="Photo Code Web" title="Image Code Web">
   </div>
 </div>
 <div class="ui two column doubling stackable grid container">
   <div class="column">
-    <h2 class="titre-dev">Front-End</h2>
+    <h2 class="titre-dev" title="Front-End">Front-End</h2>
     <div class="ui items">
       <div class="item html5">
         <div class="image img-frontend-form">
-          <img class="img-frontend-form" src="/img/html5-xs.svg">
+          <img class="img-frontend-form" src="/img/html5-xs.svg" alt="Logo HTML5" title="Logo HTML5">
         </div>
         <div class="content">
           <a class="header">HTML5</a>
@@ -43,7 +43,7 @@
       </div>
       <div class="item css3">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/css3-xs.svg">
+          <img class="img-frontend" src="/img/css3-xs.svg" alt="Logo CSS3" title="Logo CSS3">
         </div>
         <div class="content">
             <a class="header">CSS3</a>
@@ -55,7 +55,7 @@
       </div>
       <div class="item js">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/js-xs.svg">
+          <img class="img-frontend" src="/img/js-xs.svg" alt="Logo Javascript" title="Logo Javascript">
         </div>
         <div class="content">
           <a class="header">Javascript</a>
@@ -67,11 +67,11 @@
     </div>
   </div>
   <div class="column">
-    <h2 class="titre-dev">Back-End</h2>
+    <h2 class="titre-dev" title="Back-End" ?>>Back-End</h2>
   <div class="ui items">
     <div class="item php">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/php-xs.svg">
+          <img class="img-frontend" src="/img/php-xs.svg" alt="Logo PHP" title="Logo PHP">
         </div>
         <div class="content">
           <a class="header">PHP</a>
@@ -83,7 +83,7 @@
     </div>
       <div class="item mysql">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/mysql-xs.svg">
+          <img class="img-frontend" src="/img/mysql-xs.svg" alt="Logo MySql" title="Logo MySql">
         </div>
         <div class="content">
             <a class="header">MySql</a>
@@ -95,7 +95,7 @@
       </div>
       <div class="item nodejs">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/nodejs-xs.svg">
+          <img class="img-frontend" src="/img/nodejs-xs.svg" alt="Logo NodeJs" title="Logo NodeJs">
         </div>
         <div class="content">
           <a class="header">NodeJs</a>

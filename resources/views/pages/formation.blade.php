@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1 class="titre-formation">Formation</h1>
+<h1 class="titre-formation" title="Formation">Formation</h1>
 
 <div class="ui one column doubling stackable grid justified container">
 	<h2>La formation Developpeur Web à Simplon.co c’est quoi ?</h2>
@@ -11,7 +11,7 @@
 	<br>
 </div>	
 <div class="ui one column doubling stackable grid justified container">
-    <img class="img-formation" src="/img/Code-c.jpg" alt="Photo Code Web">
+    <img class="img-formation" src="/img/Code-c.jpg" alt="Photo Code Web" title="Image Code Web">
 </div>
 <div class="ui one column doubling stackable grid justified container">
 	<div class="ui inverted segment">

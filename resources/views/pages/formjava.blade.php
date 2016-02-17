@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1 class="titre-page">Formation Java</h1>
+<h1 class="titre-page" title="Formation Java">Formation Java</h1>
 
 <div class="ui one column doubling stackable grid container">
   <p>
@@ -18,7 +18,7 @@
     </p>
   </div>
   <div class="column">
-    <img class="img-java" src="/img/formjava.svg" alt="">
+    <img class="img-java" src="/img/formjava.svg" alt="Logo Java" title="Logo Java">
   </div>
 </div>
 <div class="ui one column doubling stackable grid container">

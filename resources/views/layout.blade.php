@@ -79,8 +79,8 @@
           <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><i class="icon send"></i></button>
         </label>
       </div>
-      <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées">
-      <img class="tiny ui image" src="./img/logo-er2c.png"alt="Ecole de la deuxième chance">
+      <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées" title="Logo Région Languedoc Roussillon Midi-Pyrénées">
+      <img class="tiny ui image" src="./img/logo-er2c.png" alt="Logo Ecole de la deuxième chance" title="Logo Ecole de la deuxième chance">
     </div>
 
     <div class="column">
@@ -112,16 +112,16 @@
        <div class="ui grid">
         <div class="four column center row">
           <div class="column"> 
-            <a href="https://github.com/SimplonTlse" class="item"><i class="github big icon"></i></a>
+            <a href="https://github.com/SimplonTlse" class="item"><i class="github big icon" title="Logo GitHub"></i></a>
           </div>
           <div class="column">
-            <a href="https://fr-fr.facebook.com/Simplon.co" class="item"><i class="facebook big icon"></i></a>
+            <a href="https://fr-fr.facebook.com/Simplon.co" class="item"><i class="facebook big icon" title="Logo Facebook"></i></a>
           </div>
           <div class="column">
-            <a href="https://twitter.com/simplonMIP" class="item"><i class="twitter big icon"></i></a>
+            <a href="https://twitter.com/simplonMIP" class="item"><i class="twitter big icon" title="Logo Twitter"></i></a>
           </div>
           <div class="column">
-            <a href="#" class="item"><i class="google plus big icon"></i></a>
+            <a href="#" class="item"><i class="google plus big icon" title="Logo Google Plus"></i></a>
           </div>
         </div>
       </div>
