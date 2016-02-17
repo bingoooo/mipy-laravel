@@ -61,13 +61,13 @@
 
 
        <div class="vertical-menu-endpage">
-         <a class="item menu-endpage" href="/index.html">Accueil</a>
+         <a class="item menu-endpage" href="/">Accueil</a>
          <a class="item menu-endpage" href="/promotion.html">Promotions</a>
          <a class="item menu-endpage" href="/partenaires.html">Partenaires</a>
          <a class="item menu-endpage" href="/temoignage.html">Témoignages</a>
          <a class="item menu-endpage" href="/team.html">Équipe</a>
          <a class="item menu-endpage" href="/contact.html">Contact</a>
-         <a class="item menu-endpage" href="#">Mentions légales</a>
+         <a class="item menu-endpage" href="/mentionslegales.html">Mentions légales</a>
       </div>
 
     </div>
@@ -79,8 +79,8 @@
           <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><i class="icon send"></i></button>
         </label>
       </div>
-      <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées">
-      <img class="tiny ui image" src="./img/logo-er2c.png"alt="Ecole de la deuxième chance">
+      <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées" title="Logo Région Languedoc Roussillon Midi-Pyrénées">
+      <img class="tiny ui image" src="./img/logo-er2c.png" alt="Logo Ecole de la deuxième chance" title="Logo Ecole de la deuxième chance">
     </div>
 
     <div class="column">
@@ -112,16 +112,16 @@
        <div class="ui grid">
         <div class="four column center row">
           <div class="column"> 
-            <a href="https://github.com/SimplonTlse" class="item"><i class="github large icon"></i></a>
+            <a href="https://github.com/SimplonTlse" class="item"><i class="github big icon" title="Logo GitHub"></i></a>
           </div>
           <div class="column">
-            <a href="https://fr-fr.facebook.com/Simplon.co" class="item"><i class="facebook large icon"></i></a>
+            <a href="https://fr-fr.facebook.com/Simplon.co" class="item"><i class="facebook big icon" title="Logo Facebook"></i></a>
           </div>
           <div class="column">
-            <a href="https://twitter.com/simplonMIP" class="item"><i class="twitter large icon"></i></a>
+            <a href="https://twitter.com/simplonMIP" class="item"><i class="twitter big icon" title="Logo Twitter"></i></a>
           </div>
           <div class="column">
-            <a href="#" class="item"><i class="google plus large icon"></i></a>
+            <a href="#" class="item"><i class="google plus big icon" title="Logo Google Plus"></i></a>
           </div>
         </div>
       </div>

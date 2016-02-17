@@ -9,7 +9,7 @@
 <div class="ui stackable equal width center aligned padded grid cards">
     <div class="ui card ">
         <div class="image">
-            <img src="img/er2c-contact.png"  title="logo de l'école de la deuxieme chance"alt="logo de l'école de la deuxieme chance de toulouse">
+            <img src="img/er2c-contact.png"  title="logo de l'école de la deuxieme chance" 7alt="logo de l'école de la deuxieme chance de toulouse">
         </div>
         <div class="content renseignement">
             <h2 class="header">Ecole Régionale de la Deuxième Chance</h2>
@@ -30,17 +30,17 @@
         </div>
         <div class="content">  
             <h3 class="header">Jean François KAPPES</h3>
-            <div class="adresse">
-                <p>
-                    Directeur <br>de Simplon MIP
-                    <br>N° : 0676450629
-                </p>
+                <div class="adresse">
+                    <p>
+                        Directeur <br>de Simplon MIP
+                        <br>N° : 0676450629
+                    </p>
+                </div>
+                <a href="mailto:jfkappes@simplon.co">jfkappes@simplon.co</a>
             </div>
-            <a href="mailto:jfkappes@simplon.co">jfkappes@simplon.co</a>
         </div>
     </div>
 </div>
-
 <div class="ui  equal width center aligned padded grid">
     <a href="http://osm.org/go/xVH~ues_8-?layers=Q&m=&node=2011456546">
         <img class="mh-map ui segment big image ui grid" title="openstreetmap emplacement de l'école de la deuxième chance"src="img/map.jpg">
@@ -54,18 +54,12 @@
                 <input placeholder="Prenom Nom" type="text">
             </div>
             <div class="field">
-                <label>email</label>
-                <input placeholder="email" type="email">
+                <label>Message</label>
+                <textarea name="message" id="mh-message" cols="30" rows="10"></textarea>
+                <button class="ui red button mh-bouton" type="submit">Envoyer</button>
             </div>
-            
-        </div>
-        <div class="field">
-            <label>Message</label>
-            <textarea name="message" id="mh-message" cols="30" rows="10"></textarea>
-            <button class="ui red button mh-bouton" type="submit">Envoyer</button>
         </div>
     </div>
+</div>
 
-</div>
-</div>
 @endsection

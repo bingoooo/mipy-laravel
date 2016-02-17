@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1 class="titre-page">Formation Java</h1>
+<h1 class="titre-page" title="Formation Java">Formation Java</h1>
 
 <div class="ui one column doubling stackable grid container">
   <p>
@@ -17,17 +17,25 @@
     340h en période de professionnalisation pour les salariés. Durée totale : de 3 à 6 mois (à définir selon les besoins).
     </p>
   </div>
-
   <div class="column">
-    <img class="img-java" src="/img/formjava.svg" alt="">
+    <img class="img-java" src="/img/formjava.svg" alt="Logo Java" title="Logo Java">
   </div>
-
 </div>
-
 <div class="ui one column doubling stackable grid container">
   <div class="column">
     <p>Validation à l’issue de la formation : évaluation continue, pratique en entreprise, mise en situation, jury Publics cibles éligibles : au contrat de professionnalisation : jeunes de moins de 26 ans, et demandeurs(ses) d’emploi de plus de 26 ans à la période de professionnalisation : salarié(es) (en poste ou en reconversion).
     </p>
+  </div>
+</div>
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons formdev">
+      <a class="formdev" href="/formdev.html"><button class="ui button formdev">Formation Développement Web</button></a>
+  </div>
+</div>
+
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons java">
+      <a class="formjava" href="/formation.html"><button class="ui button formjava">Formation</button></a>
   </div>
 </div>
 

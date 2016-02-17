@@ -2,10 +2,10 @@
 
 @section('content')
 
-<h1 class="titre-page">Formation Développement Web</h1>
+<h1 class="titre-page" title="Formation Développement Web">Formation Développement Web</h1>
 
 <div class="ui one column doubling stackable grid container">
-  <h2>La formation Dev à Simplon.co c’est quoi ?</h2>
+  <h2 title="La formation Dev à Simplon.co c’est quoi ?">La formation Dev à Simplon.co c’est quoi ?</h2>
   <p>
     Apprendre à créer des sites Internet et des applications web, et en faire son métier
     En intensif, sur un cycle de 6 mois
@@ -14,40 +14,36 @@
     Une formation dont la sélection se fait sur la motivation et l’envie de travailler en équipe !
     Un écosystème riche comprenant une communauté de mentors, de professionnels, des partenaires publics, privés et non-marchands…</p>
 </div>
-
 <div class="ui two column doubling stackable grid container">
   <div class="column">
-    <h2>Le programme des 6 mois de formation ?</h2>
+    <h2 title="Le programme des 6 mois de formation ?">Le programme des 6 mois de formation ?</h2>
     <p>
       Acquérir des compétences en développement web et mobile, en gestion d'équipe, en administration système, en design et ergonomie, afin d'être capable de créer une application et de la mettre en production. En utilisant différents langages de programmation
       et différentes techniques de mise en oeuvre.
     </p>
   </div>
-
   <div class="column">
-    <img src="../img/code-d.jpeg" alt="">
+    <img src="/img/code-d.jpeg" alt="Photo Code Web" title="Image Code Web">
   </div>
-
 </div>
-
 <div class="ui two column doubling stackable grid container">
   <div class="column">
-    <h2 class="titre-dev">Front-End</h2>
-  <div class="ui items">
-    <div class="item html5">
+    <h2 class="titre-dev" title="Front-End">Front-End</h2>
+    <div class="ui items">
+      <div class="item html5">
         <div class="image img-frontend-form">
-          <img class="img-frontend-form" src="/img/html5-xs.svg">
+          <img class="img-frontend-form" src="/img/html5-xs.svg" alt="Logo HTML5" title="Logo HTML5">
         </div>
         <div class="content">
           <a class="header">HTML5</a>
-        <div class="description">
-          <p>L’Hypertext Markup Language, généralement abrégé HTML, est le format de données conçu pour représenter les pages web. C’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec des langages de programmation (JavaScript) et des formats de présentation (feuilles de style en cascade). HTML est initialement dérivé du Standard Generalized Markup Language (SGML).</p>
+          <div class="description">
+            <p>L’Hypertext Markup Language, généralement abrégé HTML, est le format de données conçu pour représenter les pages web. C’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec des langages de programmation (JavaScript) et des formats de présentation (feuilles de style en cascade). HTML est initialement dérivé du Standard Generalized Markup Language (SGML).</p>
+          </div>
         </div>
       </div>
-    </div>
       <div class="item css3">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/css3-xs.svg">
+          <img class="img-frontend" src="/img/css3-xs.svg" alt="Logo CSS3" title="Logo CSS3">
         </div>
         <div class="content">
             <a class="header">CSS3</a>
@@ -59,7 +55,7 @@
       </div>
       <div class="item js">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/js-xs.svg">
+          <img class="img-frontend" src="/img/js-xs.svg" alt="Logo Javascript" title="Logo Javascript">
         </div>
         <div class="content">
           <a class="header">Javascript</a>
@@ -71,11 +67,11 @@
     </div>
   </div>
   <div class="column">
-    <h2 class="titre-dev">Back-End</h2>
+    <h2 class="titre-dev" title="Back-End" ?>>Back-End</h2>
   <div class="ui items">
     <div class="item php">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/php-xs.svg">
+          <img class="img-frontend" src="/img/php-xs.svg" alt="Logo PHP" title="Logo PHP">
         </div>
         <div class="content">
           <a class="header">PHP</a>
@@ -87,7 +83,7 @@
     </div>
       <div class="item mysql">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/mysql-xs.svg">
+          <img class="img-frontend" src="/img/mysql-xs.svg" alt="Logo MySql" title="Logo MySql">
         </div>
         <div class="content">
             <a class="header">MySql</a>
@@ -99,7 +95,7 @@
       </div>
       <div class="item nodejs">
         <div class="image img-frontend-form">
-          <img class="img-frontend" src="/img/nodejs-xs.svg">
+          <img class="img-frontend" src="/img/nodejs-xs.svg" alt="Logo NodeJs" title="Logo NodeJs">
         </div>
         <div class="content">
           <a class="header">NodeJs</a>
@@ -112,12 +108,22 @@
     </div>
   </div>
 </div>
-
 <div class="ui one column doubling stackable grid container">
   <h2>La formation Dev à Simplon.co c’est quoi ?</h2>
   <p>
     Des compétences et des technologies : le développement « front-end » (ce qu’on voit à l’écran, avec HTML, CSS et Javascript), le développement « back-end » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces Des méthodes : méthodologies agiles, pair programming, etc. Des outils : Git, Github, Slack, Sublime text, etc. Des ouvertures sur d’autres domaines : Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing, … Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment. Nouveau dès novembre 2015 : possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)
   </p>
+</div>
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons formdev">
+      <a class="formdev" href="/formjava.html"><button class="ui button formdev">Formation Java</button></a>
+  </div>
+</div>
+
+<div class="ui one column doubling stackable grid justified container">
+  <div class="ui large buttons java">
+      <a class="formjava" href="/formation.html"><button class="ui button formjava">Formation</button></a>
+  </div>
 </div>
 
 @endsection

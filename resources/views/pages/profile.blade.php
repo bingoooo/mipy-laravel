@@ -7,7 +7,6 @@
   </div>
 </div>
 
-
 <div class="ui equal width center aligned padded grid" id="to_bandeau">
  <div class="row">
    <div class="column ">
@@ -40,7 +39,7 @@
 <div class="ten wide column centered  ui menu bio">
  <h2 class="ui horizontal divider ">Biographie</h2>
  <p class="bio_paragraphe">{{$users->biographie}}</p>
-</div>
+  </div>
 </div>
 
 @endsection
