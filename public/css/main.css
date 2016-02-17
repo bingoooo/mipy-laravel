@@ -150,7 +150,8 @@
   font-family: 'Open Sans';
   font-size: 3em; }
 
-.rl-modal.rl-modal.rl-modal {
+.ui.inverted.segment.formulaire-contact.center.modal.rl-modal {
+  left: 25%;
   top: 20%; }
 
 .ui.labeled.icon.green.button.rl-envoyer {
@@ -398,13 +399,13 @@ a.menu-endpage:hover {
     text-align: center; }
 
 .ui.container {
-  padding-top: 80px;
   margin-bottom: 120px; }
 
 .titre-formation {
   font-family: 'Open Sans';
   text-align: center;
-  font-size: 35px; }
+  font-size: 35px;
+  margin-top: 80px; }
 
 .ui.four.cards .sm-card {
   margin: 0px; }

@@ -1,17 +1,14 @@
-
-
 .ui.container {
   // marge top & bottom
-  padding-top: 80px;
   margin-bottom: 120px;
 }
+
 .titre-formation {
 	font-family: 'Open Sans';
 	text-align: center;
 	font-size: 35px;
+	margin-top: 80px;
 }
-
-
 
 .ui.four.cards .sm-card {
 	margin:0px;
@@ -20,26 +17,21 @@
 .sm-card {
 	position:relative;
 	overflow:hidden;
-	
 }
 
-.sm-card .sm-card-images .sm-card-image-hover{
-
+.sm-card .sm-card-images .sm-card-image-hover {
 	position:absolute;
 	top:0;
 	left:0;
 	opacity:0;
 	transition: all ease 166ms;
-
 }
 
-.sm-card:hover .sm-card-images .sm-card-image-hover{
+.sm-card:hover .sm-card-images .sm-card-image-hover {
 	opacity:0.7;
-
-
 }
 
-.sm-card-extra{
+.sm-card-extra {
 	top:0;
 	position:absolute;
 	bottom:4px;
@@ -58,11 +50,11 @@
 	line-height:2.5em;
 }
 
-.sm-card:hover .sm-card-extra{
-transform: translateY(0%);
-height:100%;
-padding-top:120px;
-transition: all 332ms ease-out;
+.sm-card:hover .sm-card-extra {
+	transform: translateY(0%);
+	height:100%;
+	padding-top:120px;
+	transition: all 332ms ease-out;
 }
 
 .seb-presentation {

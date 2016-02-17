@@ -9,7 +9,7 @@
 <div class="ui stackable equal width center aligned padded grid cards">
     <div class="ui card ">
         <div class="image">
-            <img src="img/er2c-contact.png"  title="logo de l'école de la deuxieme chance" 7alt="logo de l'école de la deuxieme chance de toulouse">
+            <img src="img/er2c-contact.png"  title="logo de l'école de la deuxieme chance" alt="logo de l'école de la deuxieme chance de toulouse">
         </div>
         <div class="content renseignement">
             <h2 class="header">Ecole Régionale de la Deuxième Chance</h2>
