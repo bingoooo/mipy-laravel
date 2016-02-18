@@ -18,11 +18,12 @@ class MessageController extends Controller
     	$form = $request->except('_token');
     	if($request['name']===""){
     		$form['created_at'] = date('Y-m-d H:m:s',time());
-	    	$test = $this->formCheck($form);
 	    	if($request['database']=='message'){
+	    		$test = $this->messCheck($form);
 				$this->sendToMessageTable($test);
 				return view('tests.send', ['message' => 'Votre message à bien été envoyé']);
 	    	} elseif ($request['database']=='job') {
+	    		$test = $this->jobCheck($form);
 	    		$this->sendToJobTable($test);
 				return view('tests.send', ['message' => 'Votre demande à bien été enregistrée']);
 	    	}
@@ -31,13 +32,24 @@ class MessageController extends Controller
     public function sendMessage(){
     	return view('tests.send');
     }
-    public function formCheck($form){
+    public function messCheck($form){
     	if(count($form)>0){
    		 	$check['nom'] = (trim($form['nom'])=='')?'Non renseigné':$form['nom'];
    		 	$check['prenom'] = (trim($form['prenom'])=='')?'Non renseigné':$form['prenom'];
    		 	$check['email'] = (trim($form['email'])=='')?'Non renseigné':$form['email'];
    		 	$check['sujet'] = (trim($form['sujet'])=='')?'Non renseigné':$form['sujet'];
    		 	$check['avis'] = (trim($form['avis'])=='')?'Non renseigné':$form['avis'];
+   		 	$check['created_at'] = (trim($form['created_at'])=='')?time():$form['created_at'];
+    	}
+    	return $check;
+    }
+    public function jobCheck($form){
+    	if(count($form)>0){
+   		 	$check['nom'] = (trim($form['nom'])=='')?'Non renseigné':$form['nom'];
+   		 	$check['prenom'] = (trim($form['prenom'])=='')?'Non renseigné':$form['prenom'];
+   		 	$check['email'] = (trim($form['email'])=='')?'Non renseigné':$form['email'];
+   		 	$check['titre_annonce'] = (trim($form['titre_annonce'])=='')?'Non renseigné':$form['titre_annonce'];
+   		 	$check['message'] = (trim($form['message'])=='')?'Non renseigné':$form['message'];
    		 	$check['created_at'] = (trim($form['created_at'])=='')?time():$form['created_at'];
     	}
     	return $check;

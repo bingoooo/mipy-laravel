@@ -48,6 +48,7 @@
     <form action="send" method="POST" class="ui inverted segment formulaire-contact">
     <input type="text" style="display:none" name="name" value="">
     <input type="text" style="display:none" name="database" value="message">
+    {{csrf_field()}}
     <div class="ui inverted form">
         <div class="two fields">
             <div class="field">

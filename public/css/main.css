@@ -668,6 +668,12 @@ p {
 /*.img-java {
 	width: 40%;
 }*/
+h2.mentions-legales-credits {
+  margin-top: 80px;
+  font-family: 'Fugaz One';
+  text-align: center;
+  font-size: 35px; }
+
 body {
   background-image: url(/img/fabric_plaid.png); }
 

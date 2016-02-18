@@ -3,7 +3,10 @@
 @section('content')
 
 <div class="rl-ui container"> 
-	<form class="ui inverted segment formulaire-contact center modal rl-modal">
+	<form action="send" method="post" class="ui inverted segment formulaire-contact center modal rl-modal">
+	<input type="text" style="display:none" name="name" value="">
+	<input type="text" style="display:none" name="database" value="job">
+	{{csrf_field()}}
     <div class="ui inverted form">
         <div class="two fields">
             <div class="field">

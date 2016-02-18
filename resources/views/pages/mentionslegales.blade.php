@@ -3,10 +3,10 @@
 @section('content')
 
 <div class="ui centered grid">
-	<div class="ui centered grid column">
-		<strong>La seule contrepartie à l'utilisation de ces mentions légales, est l'engagement total à laisser le lien crédit subdelirium sur cette page de mentions légales.</strong><br />
-		Vos mentions légales :
-		<h2>Informations légales</h2>
+	<div class="ui one column doubling stackable grid justified container">
+		<!-- <strong>La seule contrepartie à l'utilisation de ces mentions légales, est l'engagement total à laisser le lien crédit subdelirium sur cette page de mentions légales.</strong><br />
+		Vos mentions légales : -->
+		<h2 class="mentions-legales-credits">Informations légales</h2>
 		<h3>1. Présentation du site.</h3>
 		<p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href="http://www.simplon-mip.co/" title="Simplon - www.simplon-mip.co">www.simplon-mip.co</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
 		<p><strong>Propriétaire</strong> : Simplon – SAS - NAF : 8299A - Agrément de formation 11 93 06676 93 – 55 rue de Vincennes 93100 Montreuil<br />
@@ -61,6 +61,15 @@
 		<h3>11. Lexique.</h3>
 		<p>Utilisateur : Internaute se connectant, utilisant le site susnommé.</p>
 		<p>Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).</p>
+	</div>
+	<div class="ui one column doubling stackable grid justified container">
+		<h2 class="mentions-legales-credits">Crédits</h2>
+		<h3>1. Photos</h3>
+			<p></p>
+			<p></p>
+		<h3>2. Direction Artistique</h3>
+			<p></p>
+			<p></p>
 	</div>
 </div>
 
