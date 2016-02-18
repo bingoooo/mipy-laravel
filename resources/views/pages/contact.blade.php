@@ -45,7 +45,9 @@
     </a>
 </div>
 <div class="ui one column doubling stackable grid container">
-    <form action="message" method="POST" class="ui inverted segment formulaire-contact">
+    <form action="send" method="POST" class="ui inverted segment formulaire-contact">
+    <input type="text" style="display:none" name="name" value="">
+    <input type="text" style="display:none" name="database" value="message">
     <div class="ui inverted form">
         <div class="two fields">
             <div class="field">
@@ -60,7 +62,7 @@
         <div class="success">
             <div class="field">
                 <label for="email">E-mail</label>
-                <input id="email" type="email" placeholder="joe@schmoe.com" name="email">
+                <input id="email" type="email" placeholder="joe@schmoe.com" name="email" required="true">
             </div>
         </div>
         <div class="field">
@@ -73,7 +75,7 @@
             <div class="field">
                 <div class="field">
                     <label for="text">Votre Message</label>
-                    <textarea id="avis" type="text" name="avis"></textarea>
+                    <textarea name="avis" required="true"></textarea>
                 </div>
             </div>
             <!-- <div class="ui submit button fluid">Envoyer</div> -->

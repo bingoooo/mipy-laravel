@@ -9,7 +9,7 @@
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 

@@ -12,6 +12,7 @@
 */
 use App\User;
 use App\News;
+use App\Message;
 
 	Route::get('/', function () {
 	    return view('pages.accueil');
@@ -22,7 +23,4 @@ use App\News;
 	Route::get('/{page}.html', 'PageController@HtmlPage');
 	Route::get('/profile{id}', 'PageController@ProfilePage');
 
-	Route::post('/message', 'MessageController@getMessage');
-	Route::get('/test', function(){
-		return view('tests.test');
-	});
+	Route::post('/send', 'MessageController@postMessage');
