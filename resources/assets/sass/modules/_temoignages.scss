@@ -18,3 +18,13 @@
 	padding-right:1em;
 	padding-bottom:3em;
 }
+
+@media screen and (min-width: 200px)
+{
+	h1.titre-formation.Temoignages {
+		width: 100%;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+}

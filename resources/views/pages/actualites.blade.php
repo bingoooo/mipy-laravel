@@ -7,7 +7,7 @@
     <h1 class="titre-formation" title="Actus et events">Actus et events</h1>
     <h2 class="ui center aligned header ab_titre_actu" title="Start'up Week !">Start'up Week !</h2>
     <p class="ab_date_actu">10 fevrier 1994</p>
-<div class="ui justified container actualites">
+<div class="ui stackable two column grid actualites">
     <div class="ab_container_actu">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla in interdum gravida, tortor velit eleifend nulla, a consectetur ipsum mi et ante. Mauris molestie nibh eget lacus mattis, ac efficitur elit sagittis. Aenean vitae ex urna. Donec sed elit vitae ligula posuere iaculis. Nullam sed ipsum feugiat, commodo odio quis, ornare augue. Sed eu erat vitae justo posuere rutrum id ac sapien. Duis tellus enim, tincidunt non varius et, pretium et arcu...</p>
         <a class="page_article" x-script="page_article" href="article.html">

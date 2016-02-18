@@ -26,3 +26,4 @@ use App\User;
 		$users = User::find($id);
 		return view('pages.profile', ['users' => $users]);
 	});
+	Route::controller('simplon', '\Simplon\SimController');
