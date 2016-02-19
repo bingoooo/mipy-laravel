@@ -3,7 +3,18 @@
 @section('content')
 
 <div class="fg-hero">
-  <p class="fg-hero-text">In Code We Trust !</p>
+  <!-- <p class="fg-hero-text">In Code We Trust !</p> -->
+  <div class="container"> 
+      <div class="os-phrases" id="os-phrases">
+        <h2>In</h2>
+        <h2>Code</h2>
+        <h2>We</h2>
+        <h2>Trust</h2>
+        <h2>&lsaquo; ! /&rsaquo;</h2>
+        <h2>Simplon</h2>
+        <h2>Midi-Pyrénées</h2>
+      </div>
+    </div>
 </div>
 
 <div class="ui two column doubling stackable grid container smp-margin">
