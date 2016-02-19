@@ -13,6 +13,7 @@
 use App\User;
 use App\News;
 use App\Message;
+use App\Http\Middleware\AdminMiddleware;
 
 	Route::get('/', function () {
 	    return view('pages.accueil');
@@ -24,3 +25,8 @@ use App\Message;
 	Route::get('/profile{id}', 'PageController@ProfilePage');
 
 	Route::post('/send', 'MessageController@postMessage');
+
+	//Admin routing
+	Route::group(['middleware' => AdminMiddleware::class], function(){
+		Route::controller('admin', 'AdminController');
+	});

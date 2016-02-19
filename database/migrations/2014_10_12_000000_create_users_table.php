@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->text('biographie');
             $table->string('occupation');
             $table->string('email')->unique();
+            $table->boolean('isAdmin');
             $table->string('password', 60);
             $table->rememberToken();
             $table->timestamps();
