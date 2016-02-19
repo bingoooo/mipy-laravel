@@ -1,9 +1,9 @@
 @extends('layout')
 
 @section('content')
-
+<div class="ui stackable one column grid">
 <h1 class="titre-page" title="Formation Développement Web">Formation Développement Web</h1>
-
+</div>
 <div class="ui one column doubling stackable grid container">
   <h2 title="La formation Dev à Simplon.co c’est quoi ?">La formation Dev à Simplon.co c’est quoi ?</h2>
   <p>
@@ -23,7 +23,7 @@
     </p>
   </div>
   <div class="column">
-    <img src="/img/code-d.jpeg" alt="Photo Code Web" title="Image Code Web">
+    <img class="img-formation" src="/img/code-d.jpeg" alt="Photo Code Web" title="Image Code Web">
   </div>
 </div>
 <div class="ui two column doubling stackable grid container">
@@ -67,7 +67,7 @@
     </div>
   </div>
   <div class="column">
-    <h2 class="titre-dev" title="Back-End" ?>>Back-End</h2>
+    <h2 class="titre-dev" title="Back-End" ?>Back-End</h2>
   <div class="ui items">
     <div class="item php">
         <div class="image img-frontend-form">

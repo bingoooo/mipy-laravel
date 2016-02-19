@@ -44,3 +44,47 @@
 	font-family: 'Fugaz One';
 	font-size: 55px;
 }
+
+@media screen and (min-width: 200px)
+{
+	.img-formation {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.formdev {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.formjava {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	h1.titre-page {
+		width: 100%;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+
+	.img-java {
+		width: 100%;
+		display: block;
+	}
+
+	h1.titre-page {
+		width: 100%;
+		margin-top: 80px;
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+}

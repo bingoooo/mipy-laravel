@@ -30,23 +30,21 @@
         </div>
       </div>
 
-      <div class="mobile only row">
+     <div class="mobile only row">
         <div class="ui fixed inverted navbar menu">
           <a class="j-menu-logo" href="/">&nbsp</a>
           <div class="right menu open">
-            <a href="" class="menu item">
+            <a href="/" class="menu item">
               <i class="content icon"></i>             
             </a>
           </div>
         </div>
-
         <div class="ui vertical navbar menu">
-          <a class="item" href="formation.html"><i class="edit icon"></i> Formation</a>
-          <a class="item" href="actualites.html"><i class="newspaper icon"></i> Actu & events</a>
-          <a class="item" href="emploi.html"><i class="users icon"></i>Emploi</a>
-          <a class="item" href="contact.html"><i class="icon mail"></i></a>
+          <a class="item" href="/formation.html"><i class="edit icon"></i>Formation</a>
+          <a class="item" href="/actualites.html"><i class="newspaper icon"></i>Actu & events</a>
+          <a class="item" href="/emploi.html"><i class="users icon"></i>Emploi</a>
+          <a class="item" href="/contact.html"><i class="icon mail"></i></a>
         </div>
-
       </div>
 
     </div>
@@ -56,10 +54,7 @@
   @yield('content')
 
   <div class="ui stackable four column grid">
-
     <div class="column">
-
-
        <div class="vertical-menu-endpage">
          <a class="item menu-endpage" href="/">Accueil</a>
          <a class="item menu-endpage" href="/promotion.html">Promotions</a>
@@ -79,8 +74,14 @@
           <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><a class="renvoi-contact" href="/contact.html"><i class="icon send"></i></a></button>
         </label>
       </div>
+      <div class="ui stackable two column grid">
+      <div class="ui medium images">
       <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées" title="Logo Région Languedoc Roussillon Midi-Pyrénées">
-      <img class="tiny ui image" src="./img/logo-er2c.png" alt="Logo Ecole de la deuxième chance" title="Logo Ecole de la deuxième chance">
+      </div>
+      <div class="ui tiny images img-responsive">
+      <img class="tiny ui image img-responsive" src="./img/logo-er2c.png" alt="Logo Ecole de la deuxième chance" title="Logo Ecole de la deuxième chance">
+      </div>
+      </div>
     </div>
 
     <div class="column">
@@ -105,9 +106,9 @@
         N° : 0534637980
       </address>
       </p> -->
-
+      <div class="ui one column doubling stackable grid container">
       <a  class="p-footer link-mail-er2c" href="mailto:mailto:er2c@er2c-mip.com">er2c@er2c-mip.com</a>
-
+      </div>
       <div class="ui inverted menu">
        <div class="ui grid">
         <div class="four column center row">

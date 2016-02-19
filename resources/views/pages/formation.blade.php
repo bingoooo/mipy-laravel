@@ -21,12 +21,12 @@
   		<p>L'objectif étant de permettre aux simploniens de devenir rapidemment de nouveaux développeurs et d'être autonome, de nombreuses compétences et méthodes de travail leur sont transmises. Des compétences techniques telles que HTML, CSS et Javascript pour le front-end, PHP et NodeJS pour le back-end. Mais également des outils de gestion de projet (Git, Github, Slack...) et des méthodes de travail (méthodologies agiles, le pair programming...).</p>
 	</div>
 </div>
-<div class="ui one column doubling stackable grid justified container">
+<div class="ui one column stackable grid justified container button-formation">
 	<div class="ui large buttons formdev">
   		<a class="formdev" href="/formdev.html"><button class="ui button formdev">Formation Développement Web</button></a>
 	</div>
 </div>
-<div class="ui one column doubling stackable grid justified container">
+<div class="ui one column doubling stackable grid justified container  button-formation">
 	<div class="ui large buttons java">
   		<a class="formjava" href="/formjava.html"><button class="ui button formjava">Formation Java</button></a>
 	</div>

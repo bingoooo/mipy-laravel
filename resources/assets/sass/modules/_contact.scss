@@ -33,3 +33,12 @@
 .ui.submit.button {
 	text-align: center;
 }
+
+@media screen and (min-width: 200px)
+{
+	.ui.inverted.segment.formulaire-contact {
+		width: 100%;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+}

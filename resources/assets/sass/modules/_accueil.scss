@@ -75,3 +75,18 @@ p {
 	margin: 0 auto;
 	bottom: 10px;
 }
+
+@media screen and (min-width: 200px)
+{
+	.photo-contenu {
+		width: 100%;
+		display: block;
+	}
+
+	.titre-page {
+		width: 100%;
+		display: block;
+		padding: none;
+		font-size: 20px;
+	}
+}

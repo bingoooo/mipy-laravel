@@ -2,6 +2,7 @@
 
 @section('content')
     <img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
+    <h1 class="titre-formation" title="Actus et events">Actus et events</h1>
     <h1 class="ui center aligned header ab_titre_actu">{{$lastNews->titre}}</h1>
     <p class="ab_date_actu">{{$lastNewsForDays}} <?php echo date('D d M Y', strtotime($lastNews->event_date)); ?></p>
 <div class="ui justified container actualites">
