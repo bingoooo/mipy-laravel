@@ -48,7 +48,9 @@ class NewsController extends Controller
         $last = $newsData->last()->id;
         $news = [];
         for ($i = 0; $i < 3; $i++){
-            $news[] = $newsData->find($last-$i-$start);
+            if($newsData->find($last-$i-$start)){
+                $news[] = $newsData->find($last-$i-$start);
+            }
         }
         foreach ($news as $new) {
             $new->forDays = $this->forDays($new->event_date);
