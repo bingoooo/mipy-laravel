@@ -6,7 +6,13 @@
   <title>Simplon MIP</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="description" content="Text Opening Sequence with CSS Animations" />
+  <meta name="keywords" content="text, opening sequence, opening credits, css animations, typography, lettering.js" />
+  <meta name="author" content="Codrops" />
+  <link rel="shortcut icon" href="../favicon.ico"> 
+  <link rel="stylesheet" type="text/css" href="./css/default.css" />
+  <link rel="stylesheet" type="text/css" href="./css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -133,8 +139,14 @@
   <div class="bh-copy footer-copyright">&copy; 2016 Simplon.co</div>
 
 <!-- chargement des scripts -->
-<script src="./js/app.js"></script>
-
+<script src="/js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/js/jquery.lettering.js"></script>
+<script>
+  $(document).ready(function() {
+  $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering(); 
+  })
+</script>
 <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Open+Sans::latin', 'Fugaz+One::latin'/*, 'Ubuntu::latin'*/ ] }
