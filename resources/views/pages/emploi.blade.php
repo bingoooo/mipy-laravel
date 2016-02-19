@@ -17,10 +17,10 @@
 			</button>
 		</div>
 		<div class="column row ">
-		<form action="job" method="POST" class="ui inverted segment formulaire-contact center rl-modal rv-emploi">
-			<input type="text" style="display:none" name="name" value="">
-			<input type="text" style="display:none" name="database" value="job">
-			{{csrf_field()}}
+			<form action="job" method="POST" class="ui inverted segment formulaire-contact center rl-modal rv-emploi">
+	    	<input type="text"class="rv-emploi" name="name" value="">
+	    	<input type="text"class="rv-emploi" name="database" value="job">
+				{{csrf_field()}}
 	    <div class="ui inverted form">
 	        <div class="two fields">
 	        	<div class="actions emploi">
