@@ -150,9 +150,11 @@
   font-family: 'Open Sans';
   font-size: 3em; }
 
-.ui.inverted.segment.formulaire-contact.center.modal.rl-modal {
-  left: 25%;
-  top: 20%; }
+.rv-emploi {
+  display: none; }
+
+.ui.button.fermeture.rl-croix {
+  margin-top: 40%; }
 
 .ui.labeled.icon.green.button.rl-envoyer {
   background-color: #e42931; }
