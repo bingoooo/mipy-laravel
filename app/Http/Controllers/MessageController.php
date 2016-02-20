@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Message;
 use App\Job;
+use App\MailingList;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -13,8 +14,24 @@ use App\Http\Controllers\Controller;
 class MessageController extends Controller
 {
     //
+    public function postEmail(Request $request){
+      $form = $request;
+      if($form['name']===""){
+        $email['email'] = htmlspecialchars($request->email);
+        $data = MailingList::all();
+        $check = $data->where('email', $email['email']);
+        if(count($check)>0){
+          return view('pages.contact', ['request' => $request, 'message' => 'Votre e-mail existe déjà dans notre base de données']);        
+        } else {
+          $email['created_at'] = date('Y-m-d H:m:s', time());
+          MailingList::insert($email);
+          return view('pages.contact', ['request' => $request, 'message' => 'Votre e-mail a été enregistré dans notre base de données']);        
+        }
+      } else {
+        return redirect('/');
+      }
+    }
     public function postMessage(Request $request){
-    	//dd($request->all());
     	$form = $request->except('_token');
     	if($request['name']===""){
     		$form['created_at'] = date('Y-m-d H:m:s',time());

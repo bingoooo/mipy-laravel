@@ -4,6 +4,9 @@
 
 <div class="container">
 <div class="ui segment equal width center aligned padded ">
+@if(isset($request))
+    <h2 class="ui red header">{{$message}}</h2>
+@endif
     <h1 class="titre-formation contact"title="Nous contacter">Nous contacter</h1>
 </div>
 <div class="ui stackable equal width center aligned padded grid cards">
@@ -44,10 +47,10 @@
         <img class="mh-map ui segment big image ui grid" title="openstreetmap emplacement de l'école de la deuxième chance"src="img/map.jpg">
     </a>
 </div>
-<div class="ui one column doubling stackable grid container">
+<div id="formulaire" class="ui one column doubling stackable grid container">
     <form action="send" method="POST" class="ui inverted segment formulaire-contact">
-    <input type="text" style="display:none" name="name" value="">
-    <input type="text" style="display:none" name="database" value="message">
+    <input type="text" class="rv-emploi" name="name" value="">
+    <input type="text" class="rv-emploi" name="database" value="message">
     {{csrf_field()}}
     <div class="ui inverted form">
         <div class="two fields">
@@ -63,7 +66,7 @@
         <div class="success">
             <div class="field">
                 <label for="email">E-mail</label>
-                <input id="email" type="email" placeholder="joe@schmoe.com" name="email" required="true">
+                <input id="email" type="email" placeholder="joe@schmoe.com" name="email" value="<?php if(isset($request['email'])){echo $request['email'];} ?>" required="true">
             </div>
         </div>
         <div class="field">

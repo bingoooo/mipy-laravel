@@ -15,9 +15,9 @@ class AdminMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if($request->input('isAdmin')!=true){
-            return view('admin.index');
-        }
+        // if($request->input('isAdmin')!=true){
+        //     return view('admin.index');
+        // }
 
         return $next($request);
     }
