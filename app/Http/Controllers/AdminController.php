@@ -11,6 +11,12 @@ class AdminController extends Controller
 {
     //
     public function getIndex(){
-    	return view('admin.accueil');
+    	return view('admin.index');
+    }
+    public function getEditArticles(){
+    	return view('admin.edit_articles');
+    }
+    public function postIndex(){
+    	return view('pages.article');
     }
 }

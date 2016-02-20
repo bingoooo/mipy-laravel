@@ -24,9 +24,11 @@ use App\Http\Middleware\AdminMiddleware;
 	Route::get('/{page}.html', 'PageController@HtmlPage');
 	Route::get('/profile{id}', 'PageController@ProfilePage');
 
+	Route::post('/contact.html', 'MessageController@postEmail');
 	Route::post('/send', 'MessageController@postMessage');
 
 	//Admin routing
 	Route::group(['middleware' => AdminMiddleware::class], function(){
+		//Route::auth();
 		Route::controller('admin', 'AdminController');
 	});

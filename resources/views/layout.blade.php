@@ -75,11 +75,13 @@
 
     <div class="column">
       <p class="p-footer">Suivez notre actualité</p>
-      <div class="ui form">
+      <form action="contact.html" method="post" class="ui form">
+        <input type="text" class="rv-emploi" name="name" value="">
+        {{csrf_field()}}
         <label class="two fields">
-          <input type="text" placeholder="jane@doe.com"><button class="ui button icon"><a class="renvoi-contact" href="/contact.html"><i class="icon send"></i></a></button>
+          <input type="email" name="email" placeholder="jane@doe.com" required="true"><button class="ui button icon"><a class="renvoi-contact" href="/contact.html#formulaire"><i class="icon send"></i></a></button>
         </label>
-      </div>
+      </form>
       <div class="ui stackable two column grid">
       <div class="ui medium images">
       <img class="medium ui image" src="./img/region-lrmp.jpg" alt="Logo Région Languedoc Roussillon Midi-Pyrénées" title="Logo Région Languedoc Roussillon Midi-Pyrénées">

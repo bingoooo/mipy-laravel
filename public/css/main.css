@@ -150,6 +150,13 @@
   font-family: 'Open Sans';
   font-size: 3em; }
 
+@media screen and (min-width: 200px) {
+  h1.titre-formation {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px; } }
+
 .rv-emploi {
   display: none; }
 
@@ -357,7 +364,7 @@ a.menu-endpage:hover {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 40px; } }
+    font-size: 35px; } }
 
 #contenu {
   margin: 0; }

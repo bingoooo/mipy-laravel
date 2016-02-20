@@ -11,19 +11,19 @@ use App\Http\Controllers\Controller;
 class NewsController extends Controller
 {
     //
+    private $lastCount = 0;
     public function NewsPage()
     {
-        if(count(News::all())>0){
+        //if(count(News::all())>0){
             $lastNews = $this->getLastNews();
-            $lastNewsForDays = $this->forDays($lastNews->event_date);
-            $lastEvents = $this->getLastEvents(1);
-            $thirdRow = $this->getLastEvents(4);
-            $fourthRow = $this->getLastEvents(7);
-            if($lastNews!==0 && count($lastNews)>0 && count($thirdRow)>0 && count($fourthRow)>0){
-                return view('pages.actualites', ['lastNews' => $lastNews, 'lastEvents' => $lastEvents, 'lastNewsForDays' => $lastNewsForDays, 'thirdRow' => $thirdRow, 'fourthRow' => $fourthRow]);
-            }
-        }
-		return redirect('/');
+            $lastNewsForDays = date('d-M-Y', time());
+            if($lastNews != null) $lastNewsForDays = $this->forDays($lastNews->event_date);
+            $lastEvents = $this->getLastEvents($this->lastCount);
+            $thirdRow = $this->getLastEvents($this->lastCount);
+            $fourthRow = $this->getLastEvents($this->lastCount);
+            return view('pages.actualites', ['lastNews' => $lastNews, 'lastEvents' => $lastEvents, 'lastNewsForDays' => $lastNewsForDays, 'thirdRow' => $thirdRow, 'fourthRow' => $fourthRow]);
+        //}
+		//return redirect('/');
     }
     public function ArticlePage($id)
     {	
@@ -40,17 +40,21 @@ class NewsController extends Controller
     {
     	$newsData = News::all();
         $news = $newsData->last();
+        $this->lastCount = $news['id'];
+        $this->lastCount --;
     	return $news;
     }
     public function getLastEvents($start){
         $currentTime = time();
         $newsData = News::all();
-        $last = $newsData->last()->id;
+        $last = $start;
         $news = [];
-        for ($i = 0; $i < 3; $i++){
-            if($newsData->find($last-$i-$start)){
-                $news[] = $newsData->find($last-$i-$start);
+        for ($i = 0, $count = 0; $count < 3 && $i < $last; $i++){
+            if($newsData->find($last-$i)){
+                $news[] = $newsData->find($last-$i);
+                $count ++;
             }
+            $this->lastCount --;
         }
         foreach ($news as $new) {
             $new->forDays = $this->forDays($new->event_date);

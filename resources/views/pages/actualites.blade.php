@@ -3,6 +3,7 @@
 @section('content')
     <img class="ui fluid image" src="http://lorempixel.com/g/940/200/">
     <h1 class="titre-formation" title="Actus et events">Actus et events</h1>
+@if(count($lastNews)>0)
     <h1 class="ui center aligned header ab_titre_actu">{{$lastNews->titre}}</h1>
     <p class="ab_date_actu">{{$lastNewsForDays}} <?php echo date('D d M Y', strtotime($lastNews->event_date)); ?></p>
 <div class="ui justified container actualites">
@@ -16,8 +17,12 @@
         </a>
     </div>
         <br>
+@else
+    <h1 class="ui center aligned header ab_titre_actu">Aucune News dans la Base de Données</h1>
+@endif
     <h2 class="ui horizontal divider header" title="Evènements à venir">Evènements à venir</h2>
     <div class="ui vertically divided container stackable grid">
+@if(count($lastEvents)>0)
         <div class="ui three column row">
         @foreach($lastEvents as $event)
             <div class="column">
@@ -37,6 +42,10 @@
             </div>
         @endforeach
         </div>
+@else
+        <h3 class="ui center aligned header ab_titre_actu">Pas de nouveaux évènements</h3>
+@endif
+@if(count($thirdRow)>0)
         <div class="ui three column row">
         @foreach($thirdRow as $event)
             <div class="column">
@@ -56,6 +65,10 @@
             </div>
         @endforeach
         </div>
+@else
+        <h3 class="ui center aligned header ab_titre_actu">Pas de news</h3>
+@endif
+@if(count($fourthRow)>0)
         <div class="three column row">
         @foreach($fourthRow as $event)
             <div class="column">
@@ -75,6 +88,7 @@
             </div>
         @endforeach
         </div>
+@endif
     </div>
 </div>
 
