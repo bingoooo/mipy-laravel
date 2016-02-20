@@ -3,42 +3,7 @@
 @section('content')
 
 <div class="rl-ui container"> 
-	<form class="ui inverted segment formulaire-contact center modal rl-modal">
-    <div class="ui inverted form">
-        <div class="two fields">
-            <div class="field">
-                <label for="prenom">Votre Prénom</label>
-                <input id="prenom" placeholder="Votre Prénom" type="text" name="prenom">
-            </div>
-            <div class="field">
-                <label for="nom">Votre Nom</label>
-                <input id="nom" placeholder="Votre Nom" type="text" name="nom">
-            </div>
-        </div>
-        <div class="success">
-            <div class="field">
-                <label for="email">E-mail</label>
-                <input id="email" type="email" placeholder="joe@schmoe.com" name="email">
-            </div>
-        </div>
-        <div class="field">
-            <div class="field">
-                <label for="titre annonce">Titre de l'annonce</label>
-                <input id="titre annonce" type="text" name="titre annonce">
-            </div>
-        </div>
-        
-            <div class="field">
-                <div class="field">
-                    <label for="text">
-                    <i class=" write icon"></i>
-                    Votre Message</label>
-                    <textarea name="message"></textarea>
-                </div>
-            </div>
-            <button class="ui submit button fluid">Envoyer</button> 
-        </div>
-    </form>
+	
 	<div class="ui center aligned container stackable grid rl-grid"> 
 		<div class="column row">
 			<section id="main" class="rl-titres"</section>
@@ -51,6 +16,61 @@
 			<button class="ui massive red button rl-grobouton">
 				Déposer une annonce 
 			</button>
+		</div>
+		<div class="column row ">
+			<form action="job" method="POST" class="ui inverted segment formulaire-contact center rl-modal rv-emploi">
+	    	<input type="text"class="rv-emploi" name="name" value="">
+	    	<input type="text"class="rv-emploi" name="database" value="job">
+				{{csrf_field()}}
+	    <div class="ui inverted form">
+	        <div class="two fields">
+	        	<div class="actions emploi">
+	        		<i class="ui button fermeture rl-croix">X</i>
+	        	</div>
+	            <div class="field">
+	                <label for="prenom">Votre Prénom</label>
+	                <input id="prenom" placeholder="Votre Prénom" type="text" name="prenom">
+	            </div>
+	            <div class="field">
+	                <label for="nom">Votre Nom</label>
+	                <input id="nom" placeholder="Votre Nom" type="text" name="nom" required="true">
+	            </div>    
+	        </div>
+	        <div class="ui two column grid">
+			  <div class="column">
+			  	<div class="field">
+				    <label for="email">E-mail</label>
+				    <input id="email" type="email" placeholder="joe@schmoe.com" name="email">  
+				</div>
+			  </div>
+			  <div class="column">
+			  		<div class="field">
+			  		<label for="status">Status</label>
+			  			<select name="status" onchange="updated(this)">
+    						<option value="employeur">Employeur</option>
+    						<option value="candidat">Candidat</option>
+						</select>
+				    </div>
+			  </div>
+			</div>
+	        <div class="field">
+	            <div class="field">
+	                <label for="titre annonce">Titre de l'annonce</label>
+	                <input id="titre annonce" type="text" name="titre annonce" required="true">
+	            </div>
+	        </div>
+	        
+	            <div class="field">
+	                <div class="field">
+	                    <label for="text">
+	                    	<i class=" write icon"></i>
+	                    	Votre Message</label>
+	                    <textarea name="message" required="true"></textarea>
+	                </div>
+	            </div>
+	            	<button class="ui submit button fluid">Envoyer</button> 
+	        </div>
+	    </form>
 		</div>
 		<div class="two column row">
 			<div class="column">
